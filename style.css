@@ -1,20 +1,15 @@
-<<<<<<< HEAD
+
 .padre {
     font-family: cursive;
     font-size: 30px;
     text-align: center;
+    display: flex;
+    background-color: aliceblue;
 }
 
 .Hijo-1 {
     font-family: cursive;
     color: red;
     text-align: center;
-=======
-.padre{
-    display: flex;
-    background-color: aliceblue;
 }
-.color{
-    color: blueviolet;
->>>>>>> origin/sara
-}
+
