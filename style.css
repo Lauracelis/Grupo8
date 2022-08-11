@@ -38,7 +38,10 @@ li a{
     margin-left: 1em;
     
 }
-
+.menu a:hover{
+    color:aqua;
+    cursor: pointer;
+}
 
 
 
