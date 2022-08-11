@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .padre {
     font-family: cursive;
     font-size: 30px;
@@ -8,4 +9,12 @@
     font-family: cursive;
     color: red;
     text-align: center;
+=======
+.padre{
+    display: flex;
+    background-color: aliceblue;
+}
+.color{
+    color: blueviolet;
+>>>>>>> origin/sara
 }
