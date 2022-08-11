@@ -1,6 +1,9 @@
 .padre{
     display: flex;
     background-color: aliceblue;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
 }
 .Hijo-1 {
     font-family: cursive;
