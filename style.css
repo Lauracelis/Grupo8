@@ -15,11 +15,7 @@ header{
     background-color: aliceblue;
 }
 
-.text{
-    color: red;
 
-    font-size: 52px;
-}
 nav{
     flex-direction: column;
     background-color: #030A47;  
@@ -28,14 +24,21 @@ nav{
     margin: 0 auto;
     justify-content: flex-end;
 }
+
 ul{
     list-style: none;
+   
     
 }
-li>a{
+li a{
     text-decoration: none;
     color: var(--primary-color-text);
     font-family: var(--primary-font);
     float: left;
+    margin-left: 1em;
     
 }
+
+
+
+
