@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
@@ -7,10 +7,26 @@ body{
     background-color:var(--principal-color);
 }
 header{
+=======
+.padre {
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+>>>>>>> origin/Nicolas
     display: flex;
-
     background-color: aliceblue;
+
+}
+
+.Hijo-1 {
+    font-family: cursive;
+    color: red;
+    text-align: center;
     font-size: 52px;
+}
+
+img {
+    width: 100px;
 }
 nav{
     flex-direction: column;
@@ -30,6 +46,7 @@ li>a{
     font-family: var(--primary-font);
     float: left;
     
+
 }
 >>>>>>> origin/developer
 
