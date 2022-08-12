@@ -5,15 +5,18 @@
     text-align: center;
     display: flex;
     background-color: aliceblue;
-<<<<<<< HEAD
+
 }
 
 .Hijo-1 {
     font-family: cursive;
     color: red;
     text-align: center;
-=======
     font-size: 52px;
+}
+
+img {
+    width: 100px;
 }
 nav{
     flex-direction: column;
@@ -33,6 +36,6 @@ li>a{
     font-family: var(--primary-font);
     float: left;
     
->>>>>>> origin/developer
+
 }
 
