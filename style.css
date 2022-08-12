@@ -13,7 +13,7 @@ header{
     display: flex;
 
     background-color: aliceblue;
-    font-size: 52px;
+    font-size: 2em;
 }
 nav{
     flex-direction: column;
