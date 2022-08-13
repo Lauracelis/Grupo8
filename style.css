@@ -25,13 +25,21 @@ nav{
 }
 ul{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0.5em;
     
 }
 li>a{
     text-decoration: none;
     color: var(--primary-color-text);
+    font-size: 0.5em;
     font-family: var(--primary-font);
     float: left;
     
 }
-
+img{
+    margin-top: -15px;
+    width: 1.5em;
+    
+}
