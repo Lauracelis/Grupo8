@@ -17,8 +17,8 @@ header{
 }
 .color{
     color: blueviolet;
+    font-size: 52px;
 }
-    
 nav{
     flex-direction: column;
     background-color: var(--principal-color);  
@@ -38,7 +38,6 @@ li>a{
     float: left;
     
 }
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(5,1fr);
