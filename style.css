@@ -14,6 +14,10 @@ header{
     background-color: aliceblue;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/katherin
 nav{
     flex-direction: column;
     background-color: var(--principal-color);  
@@ -22,16 +26,110 @@ nav{
     margin: 0 auto;
     justify-content: flex-end;
 }
+
 ul{
     list-style: none;
+   
     
 }
-li>a{
+li a{
     text-decoration: none;
     color: var(--primary-color-text);
     font-family: var(--primary-font);
     float: left;
+    margin-left: 1em;
     
 }
+.menu a:hover{
+    color:aqua;
+    cursor: pointer;
+}
+.caro{
+    margin-top: 5%;
+    display: flex;
+    margin-left: 4em;
+    margin-right: 4%;
+   
+}
+.caro_1{
+    width: 40%;
+    background-color: blue;
 
+<<<<<<< HEAD
 
+=======
+}
+.caror{
+    width: 40%;
+background-color: red;
+}
+.carom{
+    width: 40%;
+    height: 14em;
+    background-color: violet;
+}
+.caros{
+    width: 40%;
+    background-color: pink;
+}
+.paola{
+    display: flex;
+    margin-left: 4em;
+    margin-right: 4%;
+}
+.paola1{
+    background-color: pink;
+    width: 40%;
+    height: 14em;
+}
+.paola2{
+    background-color: purple;
+    width: 40%;
+}
+.paola3{
+    background-color: aqua;
+    width: 40%;
+}
+.paola4{
+    background-color: purple;
+    width: 40%;
+}.leibol{
+    background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
+    margin-top: 50em;
+    color: white;
+    margin-left: 40%;
+}
+.leibol_3{
+    background-color: #010528;
+    color: white;
+    background-color: gray;
+    
+    border: white;
+    font-size: 16px;
+   
+}
+.leibol_3:hover{
+color: black;
+cursor: pointer;
+}
+.leibol_2{
+    background-color: #010528;
+    border: white;
+}
+.text{
+    color:white;
+    font-family: cursive;
+    font-size: 15px;
+    opacity:30%;
+    margin-right: 10%;
+}
+.text_1{
+    opacity: 30%;
+}
+.text_1:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+
+      
+>>>>>>> origin/katherin
