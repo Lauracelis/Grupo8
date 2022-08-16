@@ -14,10 +14,7 @@ header{
     background-color: aliceblue;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/katherin
 nav{
     flex-direction: column;
     background-color: var(--principal-color);  
@@ -44,57 +41,9 @@ li a{
     color:aqua;
     cursor: pointer;
 }
-.caro{
-    margin-top: 5%;
-    display: flex;
-    margin-left: 4em;
-    margin-right: 4%;
-   
-}
-.caro_1{
-    width: 40%;
-    background-color: blue;
 
-<<<<<<< HEAD
-
-=======
-}
-.caror{
-    width: 40%;
-background-color: red;
-}
-.carom{
-    width: 40%;
-    height: 14em;
-    background-color: violet;
-}
-.caros{
-    width: 40%;
-    background-color: pink;
-}
-.paola{
-    display: flex;
-    margin-left: 4em;
-    margin-right: 4%;
-}
-.paola1{
-    background-color: pink;
-    width: 40%;
-    height: 14em;
-}
-.paola2{
-    background-color: purple;
-    width: 40%;
-}
-.paola3{
-    background-color: aqua;
-    width: 40%;
-}
-.paola4{
-    background-color: purple;
-    width: 40%;
-}.leibol{
-    background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
+.leibol{
+   background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
     margin-top: 50em;
     color: white;
     margin-left: 40%;
@@ -132,4 +81,4 @@ cursor: pointer;
 }
 
       
->>>>>>> origin/katherin
+
