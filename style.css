@@ -11,7 +11,6 @@ body{
 }
 header{
     display: flex;
-
     background-color: aliceblue;
 }
 
@@ -36,8 +35,9 @@ li a{
     font-family: var(--primary-font);
     float: left;
     margin-left: 1em;
-    
 }
+    
+
 .menu a:hover{
     color:aqua;
     cursor: pointer;
@@ -79,4 +79,3 @@ cursor: pointer;
     color: goldenrod;
     cursor: pointer;
 }
-      
