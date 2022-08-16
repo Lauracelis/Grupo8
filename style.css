@@ -40,3 +40,19 @@ li>a{
     
 }
 
+.grid-container{
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: auto auto auto auto;; 
+    grid-template-rows: 350px 350px 350px 350px;
+  }
+  
+  .grid-container div{
+  background-color: rgba(0, 0, 0, 0.8);  
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  border: 1px solid black;
+}
+
+
