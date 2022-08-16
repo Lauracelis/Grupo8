@@ -11,10 +11,9 @@ body{
 }
 header{
     display: flex;
-
     background-color: aliceblue;
-    font-size: 52px;
 }
+
 nav{
     flex-direction: column;
     background-color: var(--principal-color);  
@@ -34,4 +33,5 @@ li>a{
     float: left;
     
 }
+
 
