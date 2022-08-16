@@ -16,10 +16,9 @@ body{
 }
 header{
     display: flex;
-
     background-color: aliceblue;
-    font-size: 52px;
 }
+
 nav{
     flex-direction: column;
     background-color: var(--principal-color);  
@@ -38,5 +37,19 @@ li>a{
     font-family: var(--primary-font);
     float: left;
     
+}
+
+
+footer{
+    width: 410px;
+    height: 200px;
+    border: 5em;
+    background-color: gray;
+    text-align: center;
+    
+
+
+    
+
 }
 
