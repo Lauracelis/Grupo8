@@ -19,14 +19,7 @@ header{
     background-color: aliceblue;
 }
 
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/katherin
->>>>>>> origin/Sebastian
 nav{
     flex-direction: column;
     background-color: var(--principal-color);  
@@ -52,14 +45,11 @@ li a{
 
 .menu a:hover{
     color:aqua;
-    cursor: pointer;
-git
+}
 
 
 
 
 
 
-      
->>>>>>> origin/katherin
->>>>>>> origin/Sebastian
+
