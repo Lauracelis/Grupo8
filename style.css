@@ -11,10 +11,10 @@ body{
 }
 header{
     display: flex;
-
     background-color: aliceblue;
-    font-size: 52px;
 }
+
+
 nav{
     flex-direction: column;
     background-color: var(--principal-color);  
@@ -23,15 +23,62 @@ nav{
     margin: 0 auto;
     justify-content: flex-end;
 }
+
 ul{
     list-style: none;
+   
     
 }
-li>a{
+li a{
     text-decoration: none;
     color: var(--primary-color-text);
     font-family: var(--primary-font);
     float: left;
+    margin-left: 1em;
     
 }
+.menu a:hover{
+    color:aqua;
+    cursor: pointer;
+}
+
+.leibol{
+   background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
+    margin-top: 50em;
+    color: white;
+    margin-left: 40%;
+}
+.leibol_3{
+    background-color: #010528;
+    color: white;
+    background-color: gray;
+    
+    border: white;
+    font-size: 16px;
+   
+}
+.leibol_3:hover{
+color: black;
+cursor: pointer;
+}
+.leibol_2{
+    background-color: #010528;
+    border: white;
+}
+.text{
+    color:white;
+    font-family: cursive;
+    font-size: 15px;
+    opacity:30%;
+    margin-right: 10%;
+}
+.text_1{
+    opacity: 30%;
+}
+.text_1:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+
+      
 
