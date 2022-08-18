@@ -53,109 +53,12 @@ li a{
 .menu a:hover{
     color:aqua;
     cursor: pointer;
-}
-.leibol{
-    background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
-    margin-top: 50em;
-    color: white;
-    margin-left: 40%;
-}
-.leibol_3{
-    background-color: #010528;
-    color: white;
-    background-color: gray;
-    
-    border: white;
-    font-size: 16px;
-   
-}
-<<<<<<< HEAD
-.leibol_3:hover{
-color: black;
-cursor: pointer;
-=======
-.caro_1{
-    width: 40%;
-    background-color: blue;
+git
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/Sebastian
-}
-.leibol_2{
-    background-color: #010528;
-    border: white;
-}
-.text{
-    color:white;
-    font-family: cursive;
-    font-size: 15px;
-    opacity:30%;
-    margin-right: 10%;
-}
-.text_1{
-    opacity: 30%;
-}
-.text_1:hover{
-    color: goldenrod;
-    cursor: pointer;
-}
-<<<<<<< HEAD
-=======
-.paola1{
-    background-color: pink;
-    width: 40%;
-    height: 14em;
-}
-.paola2{
-    background-color: purple;
-    width: 40%;
-}
-.paola3{
-    background-color: aqua;
-    width: 40%;
-}
-.paola4{
-    background-color: purple;
-    width: 40%;
-}.leibol{
-    background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
-    margin-top: 50em;
-    color: white;
-    margin-left: 40%;
-}
-.leibol_3{
-    background-color: #010528;
-    color: white;
-    background-color: gray;
-    
-    border: white;
-    font-size: 16px;
-   
-}
-.leibol_3:hover{
-color: black;
-cursor: pointer;
-}
-.leibol_2{
-    background-color: #010528;
-    border: white;
-}
-.text{
-    color:white;
-    font-family: cursive;
-    font-size: 15px;
-    opacity:30%;
-    margin-right: 10%;
-}
-.text_1{
-    opacity: 30%;
-}
-.text_1:hover{
-    color: goldenrod;
-    cursor: pointer;
-}
+
+
+
 
       
 >>>>>>> origin/katherin
