@@ -1,4 +1,37 @@
-.padre{
-    display: flex;
-    background-color: aliceblue;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root{
+    --principal-color: #010528;
+    --primary-color-text:#F2F2F2;
+    --primary-font: 'Playfair Display', serif;
 }
+
+body{
+    background-color:var(--principal-color);
+}
+header{
+    display: flex;
+
+    background-color: aliceblue;
+    font-size: 52px;
+}
+nav{
+    flex-direction: column;
+    background-color: #030A47;  
+    width: 100%;
+    height: 2.5em;
+    margin: 0 auto;
+    justify-content: flex-end;
+}
+ul{
+    list-style: none;
+    
+}
+li>a{
+    text-decoration: none;
+    color: var(--primary-color-text);
+    font-family: var(--primary-font);
+    float: left;
+    
+}
+
