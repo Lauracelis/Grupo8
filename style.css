@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap');
+
 :root{
-    --principal-color: #010528;
+    --background-color: #010528;
+    --gold-color: #B29E6A;
     --primary-color-text:#F2F2F2;
+    --second-color-text:#101010;
     --primary-font: 'Playfair Display', serif;
+    --secondary-font: 'Source Sans Pro', sans-serif;
 }
 
 body{
@@ -17,7 +22,7 @@ header{
 }
 nav{
     flex-direction: column;
-    background-color: #030A47;  
+    background-color: var(--principal-color);  
     width: 100%;
     height: 2.5em;
     margin: 0 auto;
@@ -34,4 +39,20 @@ li>a{
     float: left;
     
 }
+
+.grid-container{
+    display: grid;
+    background-color: aqua;
+    grid-template-columns: auto auto auto auto;; 
+    grid-template-rows: 350px 350px 350px 350px;
+  }
+  
+  .grid-container div{
+  background-color: rgba(0, 0, 0, 0.8);  
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  border: 1px solid black;
+}
+
 
