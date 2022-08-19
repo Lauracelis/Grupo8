@@ -72,9 +72,9 @@ nav img{
     background:#010528;
 }
 
-.menu{
+/*.menu{
     background-color: red;
-}
+}*/
 
 /*Aca empieza el primer container que es de las cards*/
 
@@ -263,7 +263,7 @@ nav img{
     grid-template-rows: 300px;
     grid-gap: 10rem;
     padding: 1rem;
-    background-color: red;
+    background-color: var(--background-color);
     /*background: url(images/Logo.png)  repeat;*/
   /* background: rgba(0, 0, 0, 0.548) no-repeat; */
     background-size: 84.5px 83px;
