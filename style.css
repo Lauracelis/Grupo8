@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
@@ -252,3 +253,41 @@ footer{
   border: 1px solid black;
 }
 
+=======
+body{
+    background-color: blue;
+}
+.beneficios_articulo{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.beneficios_txt{
+    grid-column: 1/4;
+    text-align: center;
+}
+.beneficios_contenedor-img{
+    text-align: right;
+}
+/* .beneficios_contenedor-img{} */
+ img{
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+    padding-top: 40px;
+
+}
+.beneficios_lista{
+    background-color: white;
+    border-radius: 5px;
+    width: 750px;
+}
+li{
+    padding: 10px;
+}
+.beneficios_boton{
+    text-align: center;
+    padding: 10px;
+    background-color: ;
+}
+>>>>>>> origin/santiagocaro
