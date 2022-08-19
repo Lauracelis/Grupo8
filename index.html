@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/home.css">
-<<<<<<< HEAD
-=======
-    <link rel="stylesheet" href="style.css">
-
-=======
->>>>>>> 12989a09e7066023ef472b949cf6c01e2ed3d38c
-    <title>Pagina de vinos</title>
-
     <title>GREAT WALL</title>
-
 </head>
 <!--Navbar de la pagina-->
 <body>
-    <header>
-        <nav>
+    <header class="header">
+            <a href="./index.html"><img class="logo" src="/images/Logo.png" alt="logo"></a>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
             <ul class="menu">
-                <img src="/images/Logo.png" alt="logo">
-                <li><a href="">INICIO</a></li>
-                <li><a href="">QUIÉNES SOMOS </a></li>
-                <li><a href="">CARTA DE VINOS</a></li>
-                <li><a href="">VINOS PREMIUM</a></li>
-                <li><a href="">CONTÁCTANOS</a></li>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">¿QUIÉNES SOMOS?</a></li>
+                <li><a href="#">CARTA DE VINOS</a></li>
+                <li><a href="#">VINOS PREMIUM</a></li>
+                <li><a href="#">CONTÁCTANOS</a>
+                </li>
+                <div class="buttons">
+                <a href="#"><button class="btn-login">INGRESAR</button></a>
+                <a href="#"><button class="btn-create_account">CREAR CUENTA</button></a>
+                <li class="toggle"><span class="bars"></span></li>
+                </div>
             </ul>
-        </nav>
-    </header>
-<!--Navbar de la pagina-->
-
-
+        <!--<nav>
+                <ul class="menu">
+                    <a href="./index.html"><img class="logo" src="/images/Logo.png" alt="logo"></a>
+                    <li><a href="./index.html">INICIO</a></li>
+                    <li><a href="./quienes-somos.html">¿QUIÉNES SOMOS? </a></li>
+                    <li><a href="./cartadevinos.html">CARTA DE VINOS</a></li>
+                    <li><a href="">VINOS PREMIUM</a></li>
+                    <li><a href="">CONTÁCTANOS</a></li>
+                </ul>
+            </nav>-->
+    </header>       
+<!-- Fin Navbar de la pagina-->
 <!--seccion tres del home -->
     <div class="grid-container">
         <div class="grid-item1">1</div>
         <div class="grid-item2">2</div>
         <div class="grid-item3">3</div>
     </div>
-
 <button class="agenda">Agendarme</button>
 
 
@@ -137,10 +140,10 @@
     </div>
     <div>3</div>
     <div>4</div>
-    
+    </div>
 
 
-<footer>
+<div>
     <h3>Contactanos</h3>
     <img src="icons8-logo-de-google-30.png">
     <img src="icons8-facebook-nuevo-30.png">
@@ -148,12 +151,12 @@
     <img src="icons8-twitter-30.png">
     <h4>Bogota,colombia</h4>
     <h4>calle 100#78-90</h4>
-    
-    <div class="footer">
-        <div class="image_footer">
-            <img class="footer-image" src="./images/Recurso 5.png" alt="imagen-footer">
-        </div>
-    </div>
+</div>
+
+    <!-- Footer imagen GREATWALL-->
+    <footer>
+        <!--<div class="image_footer">-->
+            <img class="great-wall" src="./images/Recurso 5.png" alt="logo-GREATWALL">
 </footer>
 </div>
 </html>
