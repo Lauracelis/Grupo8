@@ -22,3 +22,35 @@ body {
     font-family: var(--secondary-font);
     font-size: 3em;
 }
+
+/*Quienes somos*/
+.container-q{
+    background-color: #010528;
+}
+
+.title-q{
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.content-q{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #F2F2F2;
+}
+
+.lorem-q{
+    width: 500px;
+    background-color: #191c3b;
+    text-align:center;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+
+.content-qq{
+    text-align: center;
+    color: #F2F2F2;
+}
+/*Quienes somos final*/
