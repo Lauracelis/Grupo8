@@ -25,18 +25,18 @@ body {
 
 /*Quienes somos*/
 .container-q{
-    background-color: #010528;
+    background-color: var(--background-color);
 }
 
 .title-q{
     text-align: center;
-    color: #F2F2F2;
+    color: var(--primary-color-text);
 }
 
 .content-q{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    color: #F2F2F2;
+    color: var(--primary-color-text);
 }
 
 .lorem-q{
@@ -51,6 +51,6 @@ body {
 
 .content-qq{
     text-align: center;
-    color: #F2F2F2;
+    color: var(--primary-color-text);
 }
 /*Quienes somos final*/
