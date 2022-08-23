@@ -297,6 +297,7 @@ a {
     display: flex;
     position: relative;
     flex-direction: column;
+    color: aliceblue;
 }
           .h3_vinos {
             right: 0px;
@@ -327,6 +328,7 @@ a {
                                 background-size: cover;
                                 background-position: center;
                                 border-radius: 10px;
-                                
-         
+                            }
+                            .images-vino {
+                              height: 313px;  
                             }
