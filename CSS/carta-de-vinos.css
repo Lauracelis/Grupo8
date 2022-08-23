@@ -26,29 +26,6 @@ body {
     font-size: 3em;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-
-:root {
-    --background-color: #010528;
-    --gold-color: #b29e6a;
-    --primary-color-text: #f2f2f2;
-    --second-color-text: #101010;
-    --primary-font: "Playfair Display", serif;
-    --secondary-font: "Source Sans Pro", sans-serif;
-}
-
-* {
-    /*box-sizing: border-box;*/
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    background-color: var(--background-color);
-    font-family: var(--secondary-font);
-}
-
 /*MOBILE MENU*/
 a {
     color: var(--second-color-text);
@@ -252,11 +229,11 @@ a {
     .header .menu-icon {
         display: none;
     }
-}
+
 
 /*responsive pantallas grandes*/
 /*@media (min-width: 1025px) {
-    header {
+    .header {
         background-color: var(--background-color);*/
     }
 
