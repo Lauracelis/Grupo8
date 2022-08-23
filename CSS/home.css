@@ -553,7 +553,7 @@ footer {
 }
 
 
-/*STYLES GRID*/
+/*STYLES GRID-DANIEL*/
 .gallery__container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -607,4 +607,4 @@ footer {
 .gallery__item:hover::before{
     transform: translate(0);
 }
-/*FIN STYLES GRID*/
+/*FIN STYLES GRID-DANIEL*/
