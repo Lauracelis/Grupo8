@@ -1,69 +1,69 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/* NO CAMBIAR NI BORRAR*/
+:root{
     --background-color: #010528;
-    --gold-color: #b29e6a;
-    --primary-color-text: #f2f2f2;
-    --second-color-text: #101010;
-    --primary-font: "Playfair Display", serif;
-    --secondary-font: "Source Sans Pro", sans-serif;
-}
-
-* {
-    /*box-sizing: border-box;*/
-    padding: 0;
-    margin: 0;
+    --gold-color: #B29E6A;
+    --primary-color-text:#F2F2F2;
+    --second-color-text:#101010;
+    --primary-font: 'Playfair Display', serif;
+    --secondary-font: 'Source Sans Pro', sans-serif;
 }
 
 body {
-    background-color: var(--background-color);
-    font-family: var(--secondary-font);
+  background-color: var(--background-color);
 }
 
-/*MOBILE MENU*/
-a {
-    color: var(--second-color-text);
+/* SECCION #3  SECTION INFORMATION "JEREMY/SARA" */
+
+.sectionInformation_grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 300px;
+  grid-gap: 10rem;
+  padding: 1rem;
+  background: url(../images/logo213.png) repeat;
+  /* opacity: 0.3; */
+  background-size: 84.5px 83px;
 }
 
-/* header */
-
-.header {
-    background-color: var(--background-color);
-    box-shadow: 1px 1px 4px 0 rgba(122, 0, 0, 0.664);
-    position: fixed;
-    width: 100%;
-    z-index: 3;
+.sectionInformation_grid-article {
+  background-color: #10101086;
+  grid-column: 2 / 6;
+  grid-row: auto;
+  /* opacity: 0.7; */
+  
+  /* GRID ARTICLE */
+  display: grid;
+  grid-template-columns: 48% 45%;
+  grid-gap: 3rem;
 }
 
-.header ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.993);
-    font-family: var(--primary-font);
+.sectionInformation_grid-seccion_text {
+  padding: 2em;
+  color: #99999b;
+  text-align: center;
+  font-size: 19px;
 }
 
-.header li a {
-    display: block;
-    padding: 20px 20px;
-    border-right: 1px solid var(--background-color);
-    text-decoration: none;
+.sectionInformation_grid-seccion_text button {
+  background: burlywood;
+  color: var(--primary-color-text);
+  padding: 1em;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  bottom: -3em;
 }
-
-.header li a:hover,
-.header .menu-btn:hover {
-    background-color: #f5f5f5fb;
-    color: rgb(83, 0, 0);
+.sectionInformation_grid-seccion_text button:hover {
+  background: #caa575;
+  cursor: pointer;
 }
-
-.logo {
-    display: block;
-    float: left;
-    width: 1.5em;
-    padding: 10px 20px;
-    text-decoration: none;
+.sectionInformation_grid-seccion_img {
+  padding: 20px;
 }
 
 /* menu */
@@ -608,3 +608,11 @@ footer {
     transform: translate(0);
 }
 /*FIN STYLES GRID-DANIEL*/
+=======
+.sectionInformation_grid-seccion_img img{
+  grid-row: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+>>>>>>> origin/sectionInformation
