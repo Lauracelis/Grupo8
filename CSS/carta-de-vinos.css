@@ -292,7 +292,6 @@ a {
 .contenedor_vino_rosa {
     height: 1024px;
     width: 100%;
-    background-color: red;
     margin: 0px;
     text-align: center;
     display: flex;
@@ -316,15 +315,18 @@ a {
                         background-color: blue;
                         width: 277px;
                         height: 513px;
-                        border-radius: 10px;
+
                       display: flex;
                        flex-direction: column;
                     }
 
                             .jamshed{   
-                                background-image: url(images/vino-blanco-1.jpg);
+                                background-color: aqua;
                                 height: 314px;
+                                width: 277px;
                                 background-size: cover;
                                 background-position: center;
+                                border-radius: 10px;
+                                
          
                             }
