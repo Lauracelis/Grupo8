@@ -24,15 +24,16 @@ body {
   grid-template-rows: 300px;
   grid-gap: 10rem;
   padding: 1rem;
-  /* background: url(../images/Logo.png) repeat; */
+  background: url(../images/logo213.png) repeat;
+  /* opacity: 0.3; */
   background-size: 84.5px 83px;
 }
 
 .sectionInformation_grid-article {
-  background-color: var(--second-color-text);
+  background-color: #10101086;
   grid-column: 2 / 6;
   grid-row: auto;
-  opacity: 1;
+  /* opacity: 0.7; */
   
   /* GRID ARTICLE */
   display: grid;
@@ -44,6 +45,7 @@ body {
   padding: 2em;
   color: #99999b;
   text-align: center;
+  font-size: 19px;
 }
 
 .sectionInformation_grid-seccion_text button {
@@ -53,6 +55,8 @@ body {
   width: 100px;
   border-radius: 10px;
   border: none;
+  position: relative;
+  bottom: -3em;
 }
 .sectionInformation_grid-seccion_text button:hover {
   background: #caa575;
