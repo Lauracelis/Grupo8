@@ -23,6 +23,7 @@ body {
     font-size: 3em;
 }
 
+<<<<<<< HEAD
 /*Quienes somos*/
 .container-q{
     background-color: var(--background-color);
@@ -56,3 +57,5 @@ body {
     color: var(--primary-color-text);
 }
 /*Quienes somos final*/
+=======
+>>>>>>> 74557d0f285ca09dceb6191416be440b22929168
