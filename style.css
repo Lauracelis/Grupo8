@@ -252,3 +252,21 @@ footer{
   border: 1px solid black;
 }
 
+/* "DANASUAZO CARTA DE VINOS BLANCO" */
+.title_vino_blanco{
+    position: absolute;
+    width: 409px;
+    height: 89px;
+    left: 71px;
+    top: 79px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 18px;
+    /* or 33% */
+    
+    text-align: right;
+    
+    color: #FFFFFF;
