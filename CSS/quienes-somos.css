@@ -23,8 +23,7 @@ body {
     font-size: 3em;
 }
 
-<<<<<<< HEAD
-/*Quienes somos*/
+/*Quienes somos-Jeisson Parra*/
 .container-q{
     background-color: var(--background-color);
 }
@@ -56,6 +55,4 @@ body {
     text-align: center;
     color: var(--primary-color-text);
 }
-/*Quienes somos final*/
-=======
->>>>>>> 74557d0f285ca09dceb6191416be440b22929168
+/*Quienes somos*/
