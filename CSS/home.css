@@ -194,7 +194,7 @@ a {
     }
 
     .btn-create_account {
-        width: 150px;
+       
     }
 
     .header li {
@@ -223,6 +223,8 @@ a {
     .header .menu-icon {
         display: none;
     }
+
+    
 }
 
 /*responsive pantallas grandes*/
