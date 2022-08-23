@@ -193,9 +193,9 @@ a {
         width: 150px;
     }
 
-    .btn-create_account {
-       
-    }
+    /*.btn-create_account {
+
+    }*/
 
     .header li {
         float: left;
@@ -327,7 +327,7 @@ a {
 
 /*Aca empieza el primer container que es de las cards*/
 
-.grid-container-1{
+.cards-grid-N_M{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: 700px;
