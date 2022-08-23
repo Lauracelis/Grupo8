@@ -337,7 +337,7 @@ a {
     background-color: var(--background-color);
 }
 
-.grid-item-1 {
+.grid-card-1 {
     justify-content: center;
 
     background-color: var(--primary-color-text);
@@ -351,12 +351,12 @@ a {
     font-weight: bold;
 }
 
-.grid-item-1:hover {
+.grid-card-1:hover {
     filter: opacity(0.9);
     transform: scale(1.04);
 }
 
-.grid-item-2 {
+.grid-card-2 {
     justify-content: center;
 
     background-color: var(--primary-color-text);
@@ -370,12 +370,12 @@ a {
     font-weight: bold;
 }
 
-.grid-item-2:hover {
+.grid-card-2:hover {
     filter: opacity(0.9);
     transform: scale(1.04);
 }
 
-.grid-item-3 {
+.grid-card-3 {
     justify-content: center;
 
     background-color: var(--primary-color-text);
@@ -389,18 +389,18 @@ a {
     font-weight: bold;
 }
 
-.grid-item-3:hover {
+.grid-card-3:hover {
     filter: opacity(0.9);
     transform: scale(1.04);
 }
 
-.grid-item-4 {
+.grid-card-4 {
     font-size: 15px;
     text-align: center;
     font-weight: bold;
 }
 
-.grid-item-4:hover {
+.grid-card-4:hover {
     filter: opacity(0.9);
     transform: scale(1.04);
 }
