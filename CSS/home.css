@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/* NO CAMBIAR NI BORRAR*/
+:root{
+    --background-color: #010528;
+    --gold-color: #B29E6A;
+    --primary-color-text:#F2F2F2;
+    --second-color-text:#101010;
+    --primary-font: 'Playfair Display', serif;
+    --secondary-font: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+/* SECCION #3  SECTION INFORMATION "JEREMY/SARA" */
+
+.sectionInformation_grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 300px;
+  grid-gap: 10rem;
+  padding: 1rem;
+  /* background: url(../images/Logo.png) repeat; */
+  background-size: 84.5px 83px;
+}
+
+.sectionInformation_grid-article {
+  background-color: var(--second-color-text);
+  grid-column: 2 / 6;
+  grid-row: auto;
+  opacity: 1;
+  
+  /* GRID ARTICLE */
+  display: grid;
+  grid-template-columns: 48% 45%;
+  grid-gap: 3rem;
+}
+
+.sectionInformation_grid-seccion_text {
+  padding: 2em;
+  color: #99999b;
+  text-align: center;
+}
+
+.sectionInformation_grid-seccion_text button {
+  background: burlywood;
+  color: var(--primary-color-text);
+  padding: 1em;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+}
+.sectionInformation_grid-seccion_text button:hover {
+  background: #caa575;
+  cursor: pointer;
+}
+.sectionInformation_grid-seccion_img {
+  padding: 20px;
+}
+.sectionInformation_grid-seccion_img img{
+  grid-row: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
