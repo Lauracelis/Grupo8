@@ -29,6 +29,7 @@ body {
 }
 
 .title-q{
+    font-family: var(--primary-font);
     text-align: center;
     color: var(--primary-color-text);
 }
@@ -50,6 +51,7 @@ body {
 }
 
 .content-qq{
+    font-family: var(--secondary-font);
     text-align: center;
     color: var(--primary-color-text);
 }
