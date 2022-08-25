@@ -38,7 +38,8 @@ body {
 
 .content-q{
     margin: 0px;
-    display: grid;
+    display: flex;
+    justify-content: center;
     grid-template-columns: repeat(2, 1fr);
 }
 
