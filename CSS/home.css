@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
@@ -11,7 +12,7 @@
 }
 
 * {
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -21,7 +22,7 @@ body {
     font-family: var(--secondary-font);
 }
 
-/*MOBILE MENU*/
+/* /MOBILE MENU/ */
 a {
     color: var(--second-color-text);
 }
@@ -227,7 +228,7 @@ a {
     
 }
 
-/*responsive pantallas grandes*/
+/* /responsive pantallas grandes/ */
 @media (min-width: 1025px) {
     header {
         margin-top: -150px;
@@ -283,8 +284,64 @@ a {
     .header .menu-icon {
         display: none;
     }
-}/*Final header*/
+}
+/* /Final header/ */
 
+/* SECCION #3  SECTION INFORMATION "JEREMY/SARA" */
+
+.sectionInformation_grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 300px;
+  grid-gap: 10rem;
+  padding: 1rem;
+  background: url(../images/logo213.png) repeat;
+  /* opacity: 0.3; */
+  background-size: 84.5px 83px;
+}
+
+.sectionInformation_grid-article {
+  background-color: #10101086;
+  grid-column: 2 / 6;
+  grid-row: auto;
+  /* opacity: 0.7; */
+  
+  /* GRID ARTICLE */
+  display: grid;
+  grid-template-columns: 48% 45%;
+  grid-gap: 3rem;
+}
+
+.sectionInformation_grid-seccion_text {
+  padding: 2em;
+  color: #99999b;
+  text-align: center;
+  font-size: 19px;
+}
+
+.sectionInformation_grid-seccion_text button {
+  background: burlywood;
+  color: var(--primary-color-text);
+  padding: 1em;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  bottom: -3em;
+}
+.sectionInformation_grid-seccion_text button:hover {
+  background: #caa575;
+  cursor: pointer;
+}
+.sectionInformation_grid-seccion_img {
+  padding: 20px;
+}
+.sectionInformation_grid-seccion_img img{
+  grid-row: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /*Inicio parte 1*/
 .grid-container-x {
@@ -337,7 +394,7 @@ a {
     background-color: var(--background-color);
 }
 
-.grid-item-1 {
+.grid-card-1 {
     justify-content: center;
 
     background-color: var(--primary-color-text);
@@ -351,12 +408,12 @@ a {
     font-weight: bold;
 }
 
-.grid-item-1:hover {
+.grid-card-1:hover {
     filter: opacity(0.9);
     transform: scale(1.04);
 }
 
-.grid-item-2 {
+.grid-card-2 {
     justify-content: center;
 
     background-color: var(--primary-color-text);
@@ -370,12 +427,12 @@ a {
     font-weight: bold;
 }
 
-.grid-item-2:hover {
+.grid-card-2:hover {
     filter: opacity(0.9);
     transform: scale(1.04);
 }
 
-.grid-item-3 {
+.grid-card-3 {
     justify-content: center;
 
     background-color: var(--primary-color-text);
@@ -389,18 +446,18 @@ a {
     font-weight: bold;
 }
 
-.grid-item-3:hover {
+.grid-card-3:hover {
     filter: opacity(0.9);
     transform: scale(1.04);
 }
 
-.grid-item-4 {
+.grid-card-4 {
     font-size: 15px;
     text-align: center;
     font-weight: bold;
 }
 
-.grid-item-4:hover {
+.grid-card-4:hover {
     filter: opacity(0.9);
     transform: scale(1.04);
 }
@@ -551,3 +608,60 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+
+/*STYLES GRID-DANIEL*/
+.gallery__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 400px;
+    background-color: #f2f2f2;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(58, 57, 57);
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.gallery__item{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.gallery__item::before{
+    content: "GREAT WALL";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.329);
+    transform: translate(100%);
+    transition: transform .4s;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.gallery__item:hover::before{
+    transform: translate(0);
+}
+/*FIN STYLES GRID-DANIEL*/
