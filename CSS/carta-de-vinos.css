@@ -27,6 +27,29 @@ body {
     font-size: 3em;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+:root {
+    --background-color: #010528;
+    --gold-color: #b29e6a;
+    --primary-color-text: #f2f2f2;
+    --second-color-text: #101010;
+    --primary-font: "Playfair Display", serif;
+    --secondary-font: "Source Sans Pro", sans-serif;
+}
+
+* {
+    /*box-sizing: border-box;*/
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--secondary-font);
+}
+
 /*MOBILE MENU*/
 a {
     color: var(--second-color-text);
@@ -220,6 +243,7 @@ a {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .header .menu {
     clear: none;
     float: right;
@@ -231,10 +255,16 @@ a {
     display: none;
 }
 
+=======
+    .header .menu-icon {
+        display: none;
+    }
+}
+>>>>>>> 177484f02837d6aa6e0ddda9b8871391bb6fe8c6
 
 /*responsive pantallas grandes*/
 /*@media (min-width: 1025px) {
-    .header {
+    header {
         background-color: var(--background-color);*/
 
 
@@ -293,11 +323,13 @@ a {
 .contenedor_vino_rosa {
     height: 1024px;
     width: 100%;
+    background-color: red;
     margin: 0px;
     text-align: center;
     display: flex;
     position: relative;
     flex-direction: column;
+<<<<<<< HEAD
 
     color: aliceblue;
 
@@ -394,3 +426,35 @@ a {
     height: 313px;
 
 }
+=======
+}
+          .h3_vinos {
+            right: 0px;
+            color: FFFFFF;
+            width: 100%;
+          }
+             .carta_de_vino_rosa {
+                background-color: white;
+                height: 513px;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                margin: 40px;
+             }
+                    .caja_rosas{
+                        background-color: blue;
+                        width: 277px;
+                        height: 513px;
+                        border-radius: 10px;
+                      display: flex;
+                       flex-direction: column;
+                    }
+
+                            .jamshed{   
+                                background-image: url(images/vino-blanco-1.jpg);
+                                height: 314px;
+                                background-size: cover;
+                                background-position: center;
+         
+                            }
+>>>>>>> 177484f02837d6aa6e0ddda9b8871391bb6fe8c6
