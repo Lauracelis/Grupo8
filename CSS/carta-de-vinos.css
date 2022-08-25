@@ -243,7 +243,6 @@ a {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 .header .menu {
     clear: none;
     float: right;
@@ -255,12 +254,6 @@ a {
     display: none;
 }
 
-=======
-    .header .menu-icon {
-        display: none;
-    }
-}
->>>>>>> 177484f02837d6aa6e0ddda9b8871391bb6fe8c6
 
 /*responsive pantallas grandes*/
 /*@media (min-width: 1025px) {
@@ -329,10 +322,6 @@ a {
     display: flex;
     position: relative;
     flex-direction: column;
-<<<<<<< HEAD
-
-    color: aliceblue;
-
 }
 
 .h3_vinos {
@@ -354,27 +343,18 @@ a {
     background-color: blue;
     width: 277px;
     height: 513px;
-
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
 }
 
 .jamshed {
-    background-color: aqua;
+    background-image: url(images/vino-blanco-1.jpg);
     height: 314px;
-    width: 277px;
     background-size: cover;
     background-position: center;
-    border-radius: 10px;
 
-}
-
-.images-vino {
-    height: 313px;
-
-}
-
-/* DanaSuazo vino blanco */
+}/* DanaSuazo vino blanco */
 .contenedor_vino_blanco {
     height: 1024px;
     width: 100%;
@@ -426,35 +406,3 @@ a {
     height: 313px;
 
 }
-=======
-}
-          .h3_vinos {
-            right: 0px;
-            color: FFFFFF;
-            width: 100%;
-          }
-             .carta_de_vino_rosa {
-                background-color: white;
-                height: 513px;
-                width: 100%;
-                display: flex;
-                justify-content: space-around;
-                margin: 40px;
-             }
-                    .caja_rosas{
-                        background-color: blue;
-                        width: 277px;
-                        height: 513px;
-                        border-radius: 10px;
-                      display: flex;
-                       flex-direction: column;
-                    }
-
-                            .jamshed{   
-                                background-image: url(images/vino-blanco-1.jpg);
-                                height: 314px;
-                                background-size: cover;
-                                background-position: center;
-         
-                            }
->>>>>>> 177484f02837d6aa6e0ddda9b8871391bb6fe8c6
