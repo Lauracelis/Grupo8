@@ -283,6 +283,7 @@ a {
     .header .menu-icon {
         display: none;
     }
+<<<<<<< HEAD
 }
 /* /Final header/ */
 
@@ -596,6 +597,56 @@ a {
     padding: 5px;
     background: #010528;
 }
+=======
+}
+
+/*Parte numero 5 de la pagina Katherin y Sebastian*/
+.leibol{
+    background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
+     margin-top: 100em;
+     color: goldenrod;
+     margin-left: 40%;
+ }
+ .leibol_3{
+     background-color: #010528;
+     color: black;
+     background-color: gray;
+     height: 20px;
+     border: gold;
+     font-size: 16px;
+    
+ }
+ .leibol_3:hover{
+ color: black;
+ cursor: pointer;
+ }
+ .leibol_2{
+     background-color: #010528;
+     border: gold;
+ }
+ .text{
+     color:gold;
+     font-family: cursive;
+     font-size: 20px;
+     opacity:30%;
+     margin-right: 10%;
+ }
+ .text:hover{
+    color: goldenrod;
+    cursor:pointer;
+
+ }
+ .text_1{
+     opacity: 30%;
+     font-size: 18px;
+     font-family: cursive;
+ }
+ .text_1:hover{
+     color: goldenrod;
+     cursor: pointer;
+ }
+
+>>>>>>> origin/footer
 
 /* Estilos FOOTER - LAURA*/
 footer {
