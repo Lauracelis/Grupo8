@@ -284,6 +284,7 @@ a {
         display: none;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 /* /Final header/ */
 
@@ -402,17 +403,48 @@ a {
     transition: transform 0.3s ease-in-out;
 
     border: solid 3px var(--primary-color-text);
+=======
+}/*Final header*/
+
+/*Inicio parte 1*/
+/*Aca empieza el primer container que es de las cards*/
+/* estilos del grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 570px;
+    gap: 30px;
+    padding: 20px;
+    background-color: #07072d;
+}
+
+/* estilos card 1 */
+
+.grid-item-1 {
+    justify-content: center;
+
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+
+    border: solid 3px #fff;
+>>>>>>> origin/footer
 
     font-size: 15px;
     text-align: center;
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 .grid-card-1:hover {
+=======
+.grid-item-1:hover {
+>>>>>>> origin/footer
     filter: opacity(0.9);
     transform: scale(1.04);
 }
 
+<<<<<<< HEAD
 .grid-card-2 {
     justify-content: center;
 
@@ -421,17 +453,33 @@ a {
     transition: transform 0.3s ease-in-out;
 
     border: solid 3px var(--primary-color-text);
+=======
+/* estilos card 2 */
+.grid-item-2 {
+    justify-content: center;
+
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+
+    border: solid 3px #fff;
+>>>>>>> origin/footer
 
     font-size: 15px;
     text-align: center;
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 .grid-card-2:hover {
+=======
+.grid-item-2:hover {
+>>>>>>> origin/footer
     filter: opacity(0.9);
     transform: scale(1.04);
 }
 
+<<<<<<< HEAD
 .grid-card-3 {
     justify-content: center;
 
@@ -440,29 +488,59 @@ a {
     transition: transform 0.3s ease-in-out;
 
     border: solid 3px var(--primary-color-text);
+=======
+/* estilos card 3 */
+.grid-item-3 {
+    justify-content: center;
+
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+
+    border: solid 3px #fff;
+>>>>>>> origin/footer
 
     font-size: 15px;
     text-align: center;
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 .grid-card-3:hover {
+=======
+.grid-item-3:hover {
+>>>>>>> origin/footer
     filter: opacity(0.9);
     transform: scale(1.04);
 }
 
+<<<<<<< HEAD
 .grid-card-4 {
+=======
+/* estilos card 4 */
+.grid-item-4 {
+
+>>>>>>> origin/footer
     font-size: 15px;
     text-align: center;
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 .grid-card-4:hover {
+=======
+.grid-item-4:hover {
+>>>>>>> origin/footer
     filter: opacity(0.9);
     transform: scale(1.04);
 }
 
+<<<<<<< HEAD
 .Imagenes {
+=======
+/* estilo y tamaño de las imagenes */
+.Imagenes{
+>>>>>>> origin/footer
     height: 400px;
     width: 250px;
     border-radius: 5px;
@@ -470,6 +548,10 @@ a {
     margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+/* estilos y tamaños de los enlaces */
+>>>>>>> origin/footer
 .enlaces {
     padding-left: 10px;
     padding-right: 10px;
@@ -482,24 +564,40 @@ a {
     color: #000;
 }
 
+<<<<<<< HEAD
 .enlaces:hover {
+=======
+.enlaces:hover{
+>>>>>>> origin/footer
     padding: 5px 10px;
     border: solid 3px gray;
     background-color: #fed766;
     font-weight: bold;
 }
 
+<<<<<<< HEAD
+=======
+/* estilos de los parrafos */
+>>>>>>> origin/footer
 #parrafo {
     margin-top: 200px;
     text-align: center;
     color: #e5e5e5;
+<<<<<<< HEAD
 }
 
+=======
+
+}
+
+/* estilo de texto de la grid 4 */
+>>>>>>> origin/footer
 #vino {
     margin-top: 150px;
     color: #e5e5e5;
     font-size: 30px;
     text-align: end;
+<<<<<<< HEAD
     font-family: "Playfair Display", serif;
 }
 
@@ -598,6 +696,19 @@ a {
     background: #010528;
 }
 =======
+    font-family: 'Playfair Display', serif;
+}
+
+#premium{
+    color: #fed766;
+    font-size: 35px;
+    text-align: end;
+    font-family: 'Playfair Display', serif;
+}
+/* estilo de texto de la grid 4 */
+/*Hasta aca llega la seccion de cards*/
+>>>>>>> origin/footer
+=======
 }
 
 /*Parte numero 5 de la pagina Katherin y Sebastian*/
@@ -646,6 +757,10 @@ a {
      cursor: pointer;
  }
 
+<<<<<<< HEAD
+>>>>>>> origin/footer
+=======
+>>>>>>> 7119cad74f31b80dbf2b3f768feef08d85985e58
 >>>>>>> origin/footer
 
 /* Estilos FOOTER - LAURA*/
