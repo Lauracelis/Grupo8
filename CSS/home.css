@@ -22,9 +22,11 @@ body {
 }
 
 /*MOBILE MENU*/
-a {
-    color: var(--second-color-text);
-}
+
+
+
+    
+
 
 /* header */
 
@@ -169,6 +171,15 @@ a {
     transform: rotate(45deg);
     top: 0;
 }
+@media(min-width: 300px) and (max-width: 720px){
+    .grid-container{
+        width: 270px;
+       margin-left: auto;
+       margin-right: auto;
+    }
+}
+
+
 
 /*responsive pantalla tablet */
 @media (min-width: 720px) and (max-width: 1024px) {
