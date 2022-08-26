@@ -283,7 +283,6 @@ a {
     .header .menu-icon {
         display: none;
     }
-<<<<<<< HEAD
 }
 /* /Final header/ */
 
@@ -359,28 +358,6 @@ a {
     color: white;
     border: 1px solid black;
 }
-
-/*.agenda {
-    margin-top: 150px;
-    font-size: 25px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #b29e6a;
-    transition: background 1.5s;
-    position: absolute;
-    top: 300px;
-    left: 90px;
-    width: 200px;
-}
-
-.agenda:hover {
-    padding: 20px;
-    background: #010528;
-}*/
-
-/*.menu{
-    background-color: red;
-}*/
 
 /*Aca empieza el primer container que es de las cards*/
 
@@ -510,13 +487,6 @@ a {
     font-family: "Playfair Display", serif;
 }
 
-/*footer{
-    width: 410px;
-    height: 200px;
-    border: 5em;
-    background-color: gray;
-    text-align: center;
-}*/
 
 /*Hasta aca llega la seccion de cards*/
 
@@ -538,9 +508,6 @@ a {
     text-align: center;
 }
 
-/* .grid-img {
-    background-repeat: repeat;
-} */
 .grid-seccion_text button {
     background: burlywood;
     color: var(--primary-color-text);
@@ -597,8 +564,7 @@ a {
     padding: 5px;
     background: #010528;
 }
-=======
-}
+
 
 /*Parte numero 5 de la pagina Katherin y Sebastian*/
 .leibol{
@@ -646,7 +612,6 @@ a {
      cursor: pointer;
  }
 
->>>>>>> origin/footer
 
 /* Estilos FOOTER - LAURA*/
 footer {
