@@ -171,6 +171,7 @@ body {
     transform: rotate(45deg);
     top: 0;
 }
+ /* media querie mobile */
 @media(min-width: 300px) and (max-width: 720px){
     .grid-container{
         width: 270px;
