@@ -315,11 +315,10 @@ a {
 .contenedor_vino_rosa {
     height: 1024px;
     width: 100%;
-    background-color: red;
     margin: 0px;
     text-align: center;
-    display: flex;
-    position: relative;
+    display: flex; 
+ position: relative; 
     flex-direction: column;
 }
           .h3_vinos {
