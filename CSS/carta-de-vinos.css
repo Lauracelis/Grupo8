@@ -311,8 +311,6 @@ a {
     display: none;
 }
 
-/*Anderson Castillo*/
-
 .contenedor_vino_rosa {
     height: 1024px;
     width: 100%;
@@ -323,6 +321,15 @@ a {
     flex-direction: column;
 }
 
+/*Anderson Castillo*/
+.partbyAnderson {
+    height: 1024px;
+    width: 100%;
+    background-color: red;
+
+}
+
+
 .h3_vinos {
     right: 0px;
     color: FFFFFF;
@@ -330,7 +337,7 @@ a {
 }
 
 .carta_de_vino_rosa {
-
+    background-color: none;
     height: 513px;
     width: 100%;
     display: flex;
@@ -353,73 +360,56 @@ a {
     background-size: cover;
     background-position: center;
 
+
 }
+
 /* DanaSuazo vino blanco */
-.contenedor_vino_blanco {
-    height: 1024px;
-    width: 100%;
-    margin: 0px;
-    text-align: center;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-
-    color: aliceblue;
-
-}
 
 
-
-.carta_de_vino_blanco {
-    background-color: none;
-    height: 513px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin: 40px;
-}
-
-.caja_blanco {
+.jamshed {
     background-color: white;
+    height: 314px;
     width: 277px;
-    height: 513px;
-    display: flex;
-    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
 }
-
-
-
-
 
 .images-vino {
     height: 313px;
-    margin: auto;
 
 }
 
-.buy_botton{
-    color: #f2f2f2;
+.title_vinos {
+    width: 409px;
+    height: 89px;
+    left: 71px;
+    top: 79px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 18px;
+    /* or 33% */
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.buy_button {
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: flex-end;
+
+    color: #FFFFFF;
     width: 122px;
     height: 41px;
     left: 77px;
     top: 456px;
     background: #B29E6A;
     border-radius: 10px;
-}
-
-.vino_title{
- 
-width: 409px;
-height: 89px;
-left: 71px;
-top: 79px;
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 600;
-font-size: 55px;
-line-height: 18px;
-/* or 33% */
-text-align: right;
-color: #FFFFFF;
-
+    border-color: #B29E6A;
 }
