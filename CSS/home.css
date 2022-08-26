@@ -433,9 +433,8 @@ a {
     transition: transform 0.3s ease-in-out;
 
     border: solid 3px var(--primary-color-text);
-=======
 /* estilos card 2 */
-.grid-item-2 {
+{
     justify-content: center;
 
     background-color: #e5e5e5;
@@ -443,7 +442,7 @@ a {
     transition: transform 0.3s ease-in-out;
 
     border: solid 3px #fff;
->>>>>>> origin/footer
+
 
     font-size: 15px;
     text-align: center;
@@ -459,7 +458,7 @@ a {
     transform: scale(1.04);
 }
 
-<<<<<<< HEAD
+
 .grid-card-3 {
     justify-content: center;
 
@@ -468,9 +467,10 @@ a {
     transition: transform 0.3s ease-in-out;
 
     border: solid 3px var(--primary-color-text);
-=======
+}
+
 /* estilos card 3 */
-.grid-item-3 {
+ {
     justify-content: center;
 
     background-color: #e5e5e5;
@@ -478,7 +478,6 @@ a {
     transition: transform 0.3s ease-in-out;
 
     border: solid 3px #fff;
->>>>>>> origin/footer
 
     font-size: 15px;
     text-align: center;
@@ -488,8 +487,8 @@ a {
 
 .grid-card-3:hover {
 
-.grid-item-3:hover {
->>>>>>> origin/footer
+ 
+
     filter: opacity(0.9);
     transform: scale(1.04);
 }
@@ -497,40 +496,37 @@ a {
 .grid-card-4 {
 
 /* estilos card 4 */
-.grid-item-4 {
+ {
 
->>>>>>> origin/footer
     font-size: 15px;
     text-align: center;
     font-weight: bold;
 }
 
-<<<<<<< HEAD
 .grid-card-4:hover {
-=======
 .grid-item-4:hover {
->>>>>>> origin/footer
+
     filter: opacity(0.9);
     transform: scale(1.04);
 }
 
-<<<<<<< HEAD
+
 .Imagenes {
-=======
+
 /* estilo y tamaño de las imagenes */
-.Imagenes{
->>>>>>> origin/footer
+             {
+origin/footer
     height: 400px;
     width: 250px;
     border-radius: 5px;
     padding: 0;
     margin: 0;
 }
+            
 
-<<<<<<< HEAD
-=======
+
 /* estilos y tamaños de los enlaces */
->>>>>>> origin/footer
+
 .enlaces {
     padding-left: 10px;
     padding-right: 10px;
@@ -543,40 +539,39 @@ a {
     color: #000;
 }
 
-<<<<<<< HEAD
+
 .enlaces:hover {
-=======
+
 .enlaces:hover{
->>>>>>> origin/footer
+
     padding: 5px 10px;
     border: solid 3px gray;
     background-color: #fed766;
     font-weight: bold;
 }
 
-<<<<<<< HEAD
-=======
+
 /* estilos de los parrafos */
->>>>>>> origin/footer
+
 #parrafo {
     margin-top: 200px;
     text-align: center;
     color: #e5e5e5;
-<<<<<<< HEAD
+
 }
 
-=======
+
 
 }
 
 /* estilo de texto de la grid 4 */
->>>>>>> origin/footer
+
 #vino {
     margin-top: 150px;
     color: #e5e5e5;
     font-size: 30px;
     text-align: end;
-<<<<<<< HEAD
+
     font-family: "Playfair Display", serif;
 }
 
@@ -677,12 +672,7 @@ a {
 }
 /* estilo de texto de la grid 4 */
 /*Hasta aca llega la seccion de cards*/
->>>>>>> origin/footer
-=======
-}
-=======
 
->>>>>>> a1bafa064c28f0ebf64163d507b8590ab7bc5824
 
 /*Parte numero 5 de la pagina Katherin y Sebastian*/
 .leibol{
