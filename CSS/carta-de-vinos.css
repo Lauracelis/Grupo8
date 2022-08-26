@@ -310,9 +310,6 @@ a {
 .header .menu-icon {
     display: none;
 }
-
-/*Anderson Castillo*/
-
 .contenedor_vino_rosa {
     height: 1024px;
     width: 100%;
@@ -322,6 +319,14 @@ a {
  position: relative; 
     flex-direction: column;
 }
+/*Anderson Castillo*/
+.partbyAnderson {
+    height: 1024px;
+    width: 100%;
+    background-color: red;
+
+}
+
 
 .h3_vinos {
     right: 0px;
