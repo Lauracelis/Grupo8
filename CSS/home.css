@@ -282,6 +282,25 @@ a {
     }
 }/*Final header*/
 
+/* Inicio seccion del div de vino */
+
+.grid-container-x {
+    display: grid;
+    /*background-color: aqua*/
+    grid-template-rows: auto;
+}
+
+.grid-container-x div {
+    background-color: #000;
+    font-size: 100px;
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+}
+
+/* finaliza seccion del div de vino */
+
 /*Inicio parte 1*/
 /*Aca empieza el primer container que es de las cards*/
 /* estilos del grid container */
