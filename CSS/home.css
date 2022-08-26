@@ -485,18 +485,17 @@ a {
     font-weight: bold;
 }
 
-<<<<<<< HEAD
+
 .grid-card-3:hover {
-=======
+
 .grid-item-3:hover {
 >>>>>>> origin/footer
     filter: opacity(0.9);
     transform: scale(1.04);
 }
 
-<<<<<<< HEAD
 .grid-card-4 {
-=======
+
 /* estilos card 4 */
 .grid-item-4 {
 
