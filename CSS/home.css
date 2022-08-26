@@ -28,7 +28,6 @@ a {
 }
 
 /* header */
-
 .header {
     background-color: var(--background-color);
     box-shadow: 1px 1px 4px 0 rgba(122, 0, 0, 0.664);
