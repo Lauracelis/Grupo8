@@ -23,11 +23,6 @@ body {
 
 /*MOBILE MENU*/
 
-
-
-    
-
-
 /* header */
 
 .header {
@@ -171,18 +166,24 @@ body {
     transform: rotate(45deg);
     top: 0;
 }
-@media(min-width: 300px) and (max-width: 720px){
+/* responsive pantalla celular */
+@media(min-width: 100px) and (max-width: 700px){
     .grid-container{
         width: 270px;
-       margin-left: auto;
-       margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .grid-container-x p {
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: -80px;
+        padding-left: 20px;
     }
 }
 
 
-
 /*responsive pantalla tablet */
-@media (min-width: 720px) and (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1024px) {
     .header {
         background-color: var(--background-color);
     }
@@ -234,6 +235,12 @@ body {
     .header .menu-icon {
         display: none;
     }
+    .grid-container-x p {
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-left: 30px;
+    } 
 }
 
 /*responsive pantallas grandes*/
@@ -297,20 +304,56 @@ body {
 
 .grid-container-x {
     display: grid;
-    /*background-color: aqua*/
     grid-template-rows: auto;
+    background-image: url(/images/img_3.jpg);
+    
 }
 
 .grid-container-x div {
-    background-color: #000;
-    font-size: 100px;
+    height: 150px;
+    background-position: center;
+    font-size: 40px;
+    font-weight: bold;
     margin-top: 150px;
-    text-align: center;
+    padding: 120px 100px;
     color: white;
-    border: 1px solid black;
 }
 
+/* .grid-container-x div {
+    height: auto;
+    background-position: center;
+    color: white;
+}
+
+.grid-container-x p {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+} */
+
+.btn-unirme{
+    font-weight: bold;
+    font-family: var(--secondary-font);
+    padding: 15px 20px;
+    font-size: 20px;
+    float: right;
+    background-color: var(--gold-color);
+    border-radius: 3px 5px 10px 10px;
+    border: solid 0px var(--primary-color-text);
+    color: var(--primary-color-text);
+    text-decoration: none;
+}
+
+.btn-unirme:hover{
+    border: solid 1px var(--primary-color-text);
+    
+}
 /* finaliza seccion del div de vino */
+
+
 
 /*Inicio parte 1*/
 /*Aca empieza el primer container que es de las cards*/
@@ -321,7 +364,7 @@ body {
     grid-auto-rows: 570px;
     gap: 30px;
     padding: 20px;
-    background-color: #07072d;
+    background-color: var(--background-color);
 }
 
 /* estilos card 1 */
