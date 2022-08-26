@@ -608,3 +608,39 @@ footer {
     transform: translate(0);
 }
 /*FIN STYLES GRID-DANIEL*/
+
+/*INICIO-GRID-MEDIA-DANIEL*/
+@media (min-width: 720px) and (max-width: 1024px){
+    .gallery__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 350px;
+        background-color: #f2f2f2;
+    }
+    
+
+    .gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1025px){
+    .gallery__container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 400px;
+        background-color: #f2f2f2;
+    }
+
+    .gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+     
+}
+/*FIN-GRID-MEDIA-DANIEL*/
+
+
