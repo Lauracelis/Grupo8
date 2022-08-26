@@ -472,9 +472,8 @@ a {
  }
 
 
-
 /* Estilos FOOTER - LAURA*/
-footer {
+.footer {
     display: flex;
     flex-direction: column;
     background-color: #060b38f6;
@@ -483,3 +482,118 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+
+/*Parte numero 5 de la pagina Katherin y Sebastian*/
+/*responsive pantalla tablet */
+
+@media (min-width: 720px) and (max-width: 1024px){
+    .leibol{
+        background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
+         margin-top: 100em;
+         color: goldenrod;
+         margin-left: 1%;
+        
+     }
+     .leibol_3{
+
+         color: black;
+         background-color: gray;
+         font-size: 10px; 
+     }
+     .leibol_3:hover{
+     color: black;
+     cursor: pointer;
+     }
+     .leibol_2{
+         background-color: #010528;
+         
+         width: 15%;
+         height: 15px;
+     }
+     .text{
+         color:var(--gold-color);
+         font-family: cursive;
+         font-size: 10px;
+         opacity:30%;
+         margin-right: 10%;
+     }
+     .text:hover{
+        color: goldenrod;
+        cursor:pointer;
+    
+     }
+     .text_1{
+         opacity: 30%;
+         font-size: 10px;
+         font-family: cursive;
+        
+     }
+     .text_1:hover{
+         color: goldenrod;
+         cursor: pointer;
+     }
+    
+    
+  
+}
+
+
+/*Parte numero 5 de la pagina Katherin y Sebastian*/
+/*responsive pantalla tablet */
+
+@media (min-width: 320px) and (max-width: 479px){
+    .leibol{
+        background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
+         margin-top: 100em;
+         color: goldenrod;
+         margin-left: 1%;
+        
+     }
+     .leibol_3{
+        color: black;
+         background-color: gray;
+         font-size: 10px; 
+         width: 35%;
+        
+       
+     }
+     .leibol_3:hover{
+     color: black;
+     cursor: pointer;
+     }
+     .leibol_2{
+         background-color: #010528;
+         width: 40%;
+         height: 15px;
+     }
+     .text{
+         color:var(--gold-color);
+         font-family: cursive;
+         font-size: 12px;
+         opacity:30%;
+         margin-right: 10%;
+        
+     }
+     .text:hover{
+        color: goldenrod;
+        cursor:pointer;
+    
+     }
+     .text_1{
+         opacity: 30%;
+         font-size: 14px;
+         font-family: cursive;
+        
+     }
+     .text_1:hover{
+         color: goldenrod;
+         cursor: pointer;
+     }
+    
+    
+  
+}
+
+
+
