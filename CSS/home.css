@@ -166,8 +166,11 @@ body {
     transform: rotate(45deg);
     top: 0;
 }
+
 /* responsive pantalla celular */
-@media(min-width: 100px) and (max-width: 700px){
+
+@media(min-width: 300px) and (max-width: 720px){
+
     .grid-container{
         width: 270px;
         margin-left: auto;
