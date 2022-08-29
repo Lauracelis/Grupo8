@@ -169,6 +169,16 @@ a {
     transform: rotate(45deg);
     top: 0;
 }
+/* responsive pantalla mobile*/
+@media (min-width: 100px) and (max-width: 719px){
+    .leibol{
+        text-align: center;
+        
+    }
+    .text{
+        font-size: 10px;
+    }
+}
 
 /*responsive pantalla tablet */
 @media (min-width: 720px) and (max-width: 1024px) {
@@ -222,6 +232,13 @@ a {
 
     .header .menu-icon {
         display: none;
+    }
+    .leibol{
+        text-align: center;
+        
+    }
+    .text{
+        font-size: 15px;
     }
 }
 
@@ -295,116 +312,6 @@ a {
     background-color: #07072d;
 }
 
-/* estilos card 1 */
-
-.grid-item-1 {
-    justify-content: center;
-
-    background-color: #e5e5e5;
-    border-radius: 5px;
-    transition: transform 0.3s ease-in-out;
-
-    border: solid 3px #fff;
-
-    font-size: 15px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.grid-item-1:hover {
-    filter: opacity(0.9);
-    transform: scale(1.04);
-}
-
-/* estilos card 2 */
-.grid-item-2 {
-    justify-content: center;
-
-    background-color: #e5e5e5;
-    border-radius: 5px;
-    transition: transform 0.3s ease-in-out;
-
-    border: solid 3px #fff;
-
-    font-size: 15px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.grid-item-2:hover {
-    filter: opacity(0.9);
-    transform: scale(1.04);
-}
-
-/* estilos card 3 */
-.grid-item-3 {
-    justify-content: center;
-
-    background-color: #e5e5e5;
-    border-radius: 5px;
-    transition: transform 0.3s ease-in-out;
-
-    border: solid 3px #fff;
-
-    font-size: 15px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.grid-item-3:hover {
-    filter: opacity(0.9);
-    transform: scale(1.04);
-}
-
-/* estilos card 4 */
-.grid-item-4 {
-
-    font-size: 15px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.grid-item-4:hover {
-    filter: opacity(0.9);
-    transform: scale(1.04);
-}
-
-/* estilo y tamaño de las imagenes */
-.Imagenes{
-    height: 400px;
-    width: 250px;
-    border-radius: 5px;
-    padding: 0;
-    margin: 0;
-}
-
-/* estilos y tamaños de los enlaces */
-.enlaces {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: solid 1px gray;
-    border-radius: 5px;
-    background-color: #fcd581;
-    text-decoration: none;
-    color: #000;
-}
-
-.enlaces:hover{
-    padding: 5px 10px;
-    border: solid 3px gray;
-    background-color: #fed766;
-    font-weight: bold;
-}
-
-/* estilos de los parrafos */
-#parrafo {
-    margin-top: 200px;
-    text-align: center;
-    color: #e5e5e5;
-
-}
 
 /* estilo de texto de la grid 4 */
 #vino {
@@ -432,46 +339,44 @@ a {
      color: goldenrod;
      margin-left: 1%;
  }
- .leibol_3{
-     background-color: #010528;
-     color: black;
-     background-color: gray;
-     height: 20px;
-     border: gold;
-     font-size: 16px;
-    
- }
- .leibol_3:hover{
- color: black;
- cursor: pointer;
- }
- .leibol_2{
-     background-color: #010528;
-     border: gold;
- }
- .text{
-     color:gold;
-     font-family: cursive;
-     font-size: 20px;
-     opacity:30%;
-     margin-right: 10%;
- }
- .text:hover{
-    color: goldenrod;
-    cursor:pointer;
-
- }
  .text_1{
-     opacity: 30%;
-     font-size: 18px;
-     font-family: cursive;
- }
- .text_1:hover{
-     color: goldenrod;
-     cursor: pointer;
- }
- 
+    opacity: 30%;
+    font-size: 14px;
+    font-family: cursive;
+}
+.text_1:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+.text{
+    color:gold;
+    font-family: cursive;
+    font-size: 13px;
+    opacity:30%;
+   
+}
+.text:hover{
+   color: goldenrod;
+   cursor:pointer;
 
+}
+.leibol_2{
+    background-color: #010528;
+    border: gold;
+}
+.leibol_3{
+    background-color: #010528;
+    color: black;
+    background-color: gray;
+    height: 20px;
+    border: gold;
+    font-size: 16px;
+   
+}
+.leibol_3:hover{
+color: black;
+cursor: pointer;
+}
 
 /* Estilos FOOTER - LAURA*/
 footer {
@@ -482,4 +387,58 @@ footer {
     height: 5em;
     justify-content: center;
     align-items: center;
+}
+/*Parte numero 5 de la pagina Katherin y Sebastian/
+/*responsive pantalla tablet */
+
+@media (min-width: 720px) and (max-width: 1024px){
+    .leibol{
+        background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
+         margin-top: 100em;
+         color: goldenrod;
+         margin-left: 1%;
+        
+     }
+     .leibol_3{
+         background-color: #010528;
+         color: black;
+         background-color: gray;
+         height: 30px;
+         border: gold;
+         font-size: 16px;
+         width: 17%;
+     }
+     .leibol_3:hover{
+     color: black;
+     cursor: pointer;
+     }
+     .leibol_2{
+         background-color: #010528;
+         border: gold;
+     }
+     .text{
+         color:var(--gold-color);
+         font-family: cursive;
+         font-size: 24px;
+         opacity:30%;
+         margin-right: 10%;
+     }
+     .text:hover{
+        color: goldenrod;
+        cursor:pointer;
+    
+     }
+     .text_1{
+         opacity: 30%;
+         font-size: 24px;
+         font-family: cursive;
+         height: 24%;
+     }
+     .text_1:hover{
+         color: goldenrod;
+         cursor: pointer;
+     }
+    
+    
+  
 }
