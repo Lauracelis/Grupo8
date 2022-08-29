@@ -180,7 +180,7 @@ a {
     }
 }
 
-/*responsive pantalla tablet */
+/*responsive pantalla table:t */
 @media (min-width: 720px) and (max-width: 1024px) {
     .header {
         background-color: var(--background-color);
@@ -300,18 +300,8 @@ a {
 
 }/*Final header*/
 
-/*Inicio parte 1*/
-/*Aca empieza el primer container que es de las cards*/
-/* estilos del grid container */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-auto-rows: 570px;
-    gap: 30px;
-    padding: 20px;
-    background-color: #07072d;
-}
 
+<<<<<<< HEAD
 
 /* estilo de texto de la grid 4 */
 #vino {
@@ -330,6 +320,8 @@ a {
 }
 /* estilo de texto de la grid 4 */
 /*Hasta aca llega la seccion de cards*/
+=======
+>>>>>>> e37aa3b86f4efafa686a13d7c5b41291a809da64
 
 
 /*Parte numero 5 de la pagina Katherin y Sebastian*/
@@ -359,6 +351,7 @@ a {
    color: goldenrod;
    cursor:pointer;
 
+<<<<<<< HEAD
 }
 .leibol_2{
     background-color: #010528;
@@ -378,8 +371,10 @@ color: black;
 cursor: pointer;
 }
 
+=======
+>>>>>>> e37aa3b86f4efafa686a13d7c5b41291a809da64
 /* Estilos FOOTER - LAURA*/
-footer {
+.footer {
     display: flex;
     flex-direction: column;
     background-color: #060b38f6;
@@ -388,6 +383,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
+<<<<<<< HEAD
 /*Parte numero 5 de la pagina Katherin y Sebastian/
 /*responsive pantalla tablet */
 
@@ -442,3 +438,7 @@ footer {
     
   
 }
+=======
+
+
+>>>>>>> e37aa3b86f4efafa686a13d7c5b41291a809da64
