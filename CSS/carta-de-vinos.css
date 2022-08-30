@@ -356,7 +356,7 @@ a {
 
 .jamshed {
     background-image: url(images/vino-blanco-1.jpg);
-    height: 314px;
+
     background-size: cover;
     background-position: center;
 
@@ -368,17 +368,17 @@ a {
 
 .jamshed {
     background-color: white;
-    height: 314px;
+
     width: 277px;
-    background-size: cover;
-    background-position: center;
     border-radius: 10px;
 
 }
 
 .images-vino {
+    width: 277px;
     height: 313px;
-
+    /* left: 0px;
+    top: 0px; */
 }
 
 .title_vinos {
