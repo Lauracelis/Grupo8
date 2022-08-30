@@ -310,9 +310,6 @@ a {
 .header .menu-icon {
     display: none;
 }
-<<<<<<< HEAD
-/* este es el contendor principal de todos los div " contendor_vino_rosa" */
-=======
 
 .contenedor_vino_rosa {
     height: 1024px;
@@ -325,34 +322,15 @@ a {
 }
 
 /*Anderson Castillo*/
-
-
-.contenedor_vino_anders {
+.partbyAnderson {
     height: 1024px;
     width: 100%;
-    margin: 0px;
-    text-align: center;
-    display: flex; 
- position: relative; 
-    flex-direction: column;
-  background-image: url(https://heatherhook.com/wp-content/uploads/2020/06/kevin-kelly-PPneSBqfCCU-unsplash.jpg) ;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-      z-index: 1;
-    opacity: 0.6;
+    background-color: red;
+
 }
 
-    .tittleVinoRosa {
-        font-family: Playfair Display;
-        font-size: 55px;
-        font-weight: 600px;
-        color: #B29E6A;
-        position: absolute;
-        left: 60px;
-        margin: 20px;
-    }
-    .h3_vinos {
+
+.h3_vinos {
     right: 0px;
     color: FFFFFF;
     width: 100%;
@@ -361,24 +339,21 @@ a {
     .carta_de_vino_rosa {
 
     background-color: none;
->>>>>>> 735860099404196ccfc382280797f54572cb44cb
     height: 513px;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    position: relative;
-    top: 20%;
+    margin: 40px;
 }
 
     .caja_rosas {
-
     background-color: white;
     width: 277px;
     height: 513px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    }
+}
 
          .images-vino {
         height: 277px;
@@ -400,9 +375,7 @@ a {
     display: flex;
     position: relative;
     flex-direction: column;
-
     color: aliceblue;
-=======
     }
 
     .h3_vinos {
@@ -430,38 +403,30 @@ a {
     }
 
     .jamshed {
-    background-color: aqua;
-=======
+    background-image: url(images/vino-blanco-1.jpg);
+    height: 314px;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
 /* DanaSuazo vino blanco */
 
 
 .jamshed {
     background-color: white;
->>>>>>> 735860099404196ccfc382280797f54572cb44cb
     height: 314px;
     width: 277px;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
 
-    }
+}
 
-    .images-vino {
+.images-vino {
     height: 313px;
 
-<<<<<<< HEAD
-    }
-    .HereFooter {
-        display: flex;
-        justify-content: center;
-        height: 203px;
-    }
-    .imagenfooter {
-        width: 800px;
-        height: 80.34px;
-        margin: 40px;
-    }
-=======
 }
 
 .title_vinos {
