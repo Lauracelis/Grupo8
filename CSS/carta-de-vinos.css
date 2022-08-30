@@ -310,16 +310,21 @@ a {
 .header .menu-icon {
     display: none;
 }
+<<<<<<< HEAD
 /* este es el contendor principal de todos los div " contendor_vino_rosa" */
+=======
+
+>>>>>>> 735860099404196ccfc382280797f54572cb44cb
 .contenedor_vino_rosa {
     height: 1024px;
     width: 100%;
     margin: 0px;
     text-align: center;
-    display: flex; 
- position: relative; 
+    display: flex;
+    position: relative;
     flex-direction: column;
 }
+
 /*Anderson Castillo*/
 
 
@@ -354,7 +359,12 @@ a {
     width: 100%;
 }
 
+<<<<<<< HEAD
     .carta_de_vino_rosa {
+=======
+.carta_de_vino_rosa {
+    background-color: none;
+>>>>>>> 735860099404196ccfc382280797f54572cb44cb
     height: 513px;
     width: 100%;
     display: flex;
@@ -363,7 +373,11 @@ a {
     top: 20%;
 }
 
+<<<<<<< HEAD
     .caja_rosas {
+=======
+.caja_rosas {
+>>>>>>> 735860099404196ccfc382280797f54572cb44cb
     background-color: white;
     width: 277px;
     height: 513px;
@@ -383,6 +397,7 @@ a {
             font-weight: 400px;
         }
 
+<<<<<<< HEAD
 
 
     /* DanaSuazo vino blanco */
@@ -396,9 +411,12 @@ a {
     flex-direction: column;
 
     color: aliceblue;
+=======
+>>>>>>> 735860099404196ccfc382280797f54572cb44cb
 
     }
 
+<<<<<<< HEAD
     .h3_vinos {
     right: 0px;
     color: FFFFFF;
@@ -425,6 +443,13 @@ a {
 
     .jamshed {
     background-color: aqua;
+=======
+/* DanaSuazo vino blanco */
+
+
+.jamshed {
+    background-color: white;
+>>>>>>> 735860099404196ccfc382280797f54572cb44cb
     height: 314px;
     width: 277px;
     background-size: cover;
@@ -436,6 +461,7 @@ a {
     .images-vino {
     height: 313px;
 
+<<<<<<< HEAD
     }
     .HereFooter {
         display: flex;
@@ -447,3 +473,39 @@ a {
         height: 80.34px;
         margin: 40px;
     }
+=======
+}
+
+.title_vinos {
+    width: 409px;
+    height: 89px;
+    left: 71px;
+    top: 79px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 18px;
+    /* or 33% */
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.buy_button {
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+    width: 122px;
+    height: 41px;
+    left: 77px;
+    top: 456px;
+    background: #B29E6A;
+    border-radius: 10px;
+    border-color: #B29E6A;
+}
+>>>>>>> 735860099404196ccfc382280797f54572cb44cb
