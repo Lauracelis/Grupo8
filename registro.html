@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+    <link rel=”stylesheet” type=”text/css” href=”URL”>
+</head>
+<body>
+    
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">nombres</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">apellidos</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+
+<!-- INICIO FORMULARIO HTML -->
+<form method="POST" action="/index.php" class="needs-validation" novalidate>
+
+    <div class="form-row mt-5">
+        <div class="col-md-4 mb-3">
+            <label for="validarNombre">Nombre:<span class="red">*</span></label>
+            <input type="text" class="form-control" id="validarNombre" name="validarNombre" required>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="validarApellidos">Apellidos:<span class="red">*</span></label>
+            <input type="text" class="form-control" id="validarApellidos" name="validarApellidos" required>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="validarEmail">Email:<span class="red">*</span></label>
+            <input type="email" class="form-control" id="validarEmail" name="validarEmail" required>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="validarTelefono">Teléfono:</label>
+            <input type="number" class="form-control" id="validarTelefono" name="validarTelefono" max="999999999">
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="validarTema">Tema:<span class="red">*</span></label>
+            <select class="custom-select" id="validarTema" name="validarTema" required>
+                <option selected disabled value="">Selecciona...</option>
+                <option value="Problema con acceso a Web">Problema con acceso a Web</option>
+                <option value="Propuesta de colaboración">Propuesta de colaboración</option>
+                <option value="Eliminar mi usuario de la Web">Eliminar mi usuario de la Web</option>
+                <option value="Otras cuestiones">Otras cuestiones</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <label for="validarAsunto">Asunto:</label>
+            <input type="text" class="form-control" id="validarAsunto" name="validarAsunto" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="validationMensaje">Mensaje:<span class="red">*</span></label>
+        <textarea class="form-control" id="validationMensaje" name="validationMensaje" rows="3" min="25" required></textarea>
+    </div>
+
+    <div class="form-group mb-10">
+        <button class="btn btn-primary" type="submit" name="submit">Enviar</button>
+        <button class="btn btn-success" type="reset" name="reset">Limpiar</button>
+    </div>
+</form>
+
+
+</body>
+</html>
+
