@@ -237,6 +237,7 @@ a {
         display: none;
     }
    
+   
     .text{
         font-size: 15px;
         }
@@ -356,7 +357,7 @@ a {
      height: 35px;
      font-family: var(--primary-font);
      font-size: 16px;
-     width: 7%;
+     width: 6%;
      cursor: pointer;
     
     
@@ -365,7 +366,7 @@ a {
  .leibol_2{
       background-color: transparent;
       opacity: 40%;
-      width: 40%;
+      width: 41%;
       height: 30px;
       margin-top: 15px;
       margin-left: 25px;
@@ -375,16 +376,17 @@ a {
      font-family:cursive;
      font-size: 20px;
      opacity: 30%;
-     margin-left: 16%;
+     margin-left: 19%;
      cursor: pointer;
  }
  
 
  .text_1{
      opacity: 30%;
-     font-size: 15px;
+     font-size: 19px;
      font-family: cursive;
      color: var(--primary-color-text);
+     text-decoration-line: underline;
  }
 
  
