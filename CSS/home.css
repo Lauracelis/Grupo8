@@ -171,13 +171,16 @@ a {
 }
 /* responsive pantalla mobile*/
 @media (min-width: 100px) and (max-width: 719px){
-    .leibol{
-        text-align: center;
-        
+    .leibol_3{
+        margin-left: 40%;
+    
+       
+          
     }
     .text{
         font-size: 10px;
     }
+    
 }
 
 /*responsive pantalla table:t */
@@ -233,14 +236,11 @@ a {
     .header .menu-icon {
         display: none;
     }
-    .leibol{
-        text-align: center;
-        
-    }
+   
     .text{
         font-size: 15px;
+        }
     }
-}
 
 /*responsive pantallas grandes*/
 @media (min-width: 1025px) {
@@ -305,49 +305,50 @@ a {
 
 /*Parte numero 5 de la pagina Katherin y Sebastian*/
 .leibol{
-    background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
+    background-image: url(../);
      margin-top: 100em;
-     color: goldenrod;
-     margin-left: 1%;
- }
- .leibol_3{
-     background-color: #010528;
-     color: black;
-     background-color: gray;
-     height: 20px;
-     border: gold;
-     font-size: 16px;
+    
     
  }
- .leibol_3:hover{
- color: black;
- cursor: pointer;
+ .leibol_3{
+
+     color: var(--primary-color-text);
+     background-color: gray;
+     opacity: 40%;
+     height: 35px;
+     font-family: var(--primary-font);
+     font-size: 16px;
+     width: 8%;
+     cursor: pointer;
+    
+    
  }
+ 
  .leibol_2{
-     background-color: #010528;
-     border: gold;
+      background-color: transparent;
+      opacity: 40%;
+      width: 40%;
+      height: 30px;
+      margin-top: 15px;
+      margin-left: 25px;
  }
  .text{
-     color:gold;
-     font-family: cursive;
+     color:var(--primary-color-text);
+     font-family:cursive;
      font-size: 20px;
-     opacity:30%;
-     margin-right: 10%;
- }
- .text:hover{
-    color: goldenrod;
-    cursor:pointer;
-
- }
- .text_1{
      opacity: 30%;
-     font-size: 18px;
-     font-family: cursive;
- }
- .text_1:hover{
-     color: goldenrod;
+     margin-left:20%;
      cursor: pointer;
  }
+ 
+
+ .text_1{
+     opacity: 30%;
+     font-size: 20px;
+     font-family: cursive;
+     color: var(--primary-color-text);
+ }
+
  
 
 /* Estilos FOOTER - LAURA*/
