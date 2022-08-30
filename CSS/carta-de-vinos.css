@@ -310,6 +310,7 @@ a {
 .header .menu-icon {
     display: none;
 }
+/* este es el contendor principal de todos los div " contendor_vino_rosa" */
 .contenedor_vino_rosa {
     height: 1024px;
     width: 100%;
@@ -320,46 +321,72 @@ a {
     flex-direction: column;
 }
 /*Anderson Castillo*/
-.partbyAnderson {
+
+
+.contenedor_vino_anders {
     height: 1024px;
     width: 100%;
-    background-color: red;
-
+    margin: 0px;
+    text-align: center;
+    display: flex; 
+ position: relative; 
+    flex-direction: column;
+  background-image: url(https://heatherhook.com/wp-content/uploads/2020/06/kevin-kelly-PPneSBqfCCU-unsplash.jpg) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+      z-index: 1;
+    opacity: 0.6;
 }
 
-
-.h3_vinos {
+    .tittleVinoRosa {
+        font-family: Playfair Display;
+        font-size: 55px;
+        font-weight: 600px;
+        color: #B29E6A;
+        position: absolute;
+        left: 60px;
+        margin: 20px;
+    }
+    .h3_vinos {
     right: 0px;
     color: FFFFFF;
     width: 100%;
 }
 
-.carta_de_vino_rosa {
-    background-color: white;
+    .carta_de_vino_rosa {
     height: 513px;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin: 40px;
+    position: relative;
+    top: 20%;
 }
 
-.caja_rosas {
-    background-color: blue;
+    .caja_rosas {
+    background-color: white;
     width: 277px;
     height: 513px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-}
+    }
 
-.jamshed {
-    background-image: url(images/vino-blanco-1.jpg);
-    height: 314px;
-    background-size: cover;
-    background-position: center;
+         .images-vino {
+        height: 277px;
+        border-radius: 10px 10px 0px 0px;
+        }
+        .textoVinos .texto_vinos_vinos p{
+            height: 125px;
+            color: #F2F2F2;
+            font-size: 11px !important;
+            font-weight: 400px;
+        }
 
-}/* DanaSuazo vino blanco */
-.contenedor_vino_blanco {
+
+
+    /* DanaSuazo vino blanco */
+    .contenedor_vino_blanco {
     height: 1024px;
     width: 100%;
     margin: 0px;
@@ -370,33 +397,33 @@ a {
 
     color: aliceblue;
 
-}
+    }
 
-.h3_vinos {
+    .h3_vinos {
     right: 0px;
     color: FFFFFF;
     width: 100%;
-}
+    }
 
-.carta_de_vino_blanco {
+    .carta_de_vino_blanco {
     background-color: white;
     height: 513px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     margin: 40px;
-}
+    }
 
-.caja_blanco {
+    .caja_blanco {
     background-color: blue;
     width: 277px;
     height: 513px;
 
     display: flex;
     flex-direction: column;
-}
+    }
 
-.jamshed {
+    .jamshed {
     background-color: aqua;
     height: 314px;
     width: 277px;
@@ -404,9 +431,19 @@ a {
     background-position: center;
     border-radius: 10px;
 
-}
+    }
 
-.images-vino {
+    .images-vino {
     height: 313px;
 
-}
+    }
+    .HereFooter {
+        display: flex;
+        justify-content: center;
+        height: 203px;
+    }
+    .imagenfooter {
+        width: 800px;
+        height: 80.34px;
+        margin: 40px;
+    }
