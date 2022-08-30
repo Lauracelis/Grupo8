@@ -303,10 +303,31 @@ a {
 
 
 
+/* estilo de texto de la grid 4 */
+#vino {
+    margin-top: 150px;
+    color: #e5e5e5;
+    font-size: 30px;
+    text-align: end;
+    font-family: 'Playfair Display', serif;
+}
+
+#premium{
+    color: #fed766;
+    font-size: 35px;
+    text-align: end;
+    font-family: 'Playfair Display', serif;
+}
+/* estilo de texto de la grid 4 */
+/*Hasta aca llega la seccion de cards*/
+
+
+
 /*Parte numero 5 de la pagina Katherin y Sebastian*/
 .leibol{
     background-image: url(../);
      margin-top: 100em;
+
     
     
  }
@@ -351,6 +372,51 @@ a {
 
  
 
+=======
+     color: goldenrod;
+     margin-left: 1%;
+ }
+ .text_1{
+    opacity: 30%;
+    font-size: 14px;
+    font-family: cursive;
+}
+.text_1:hover{
+    color: goldenrod;
+    cursor: pointer;
+}
+.text{
+    color:gold;
+    font-family: cursive;
+    font-size: 13px;
+    opacity:30%;
+   
+}
+.text:hover{
+   color: goldenrod;
+   cursor:pointer;
+
+<<<<<<< HEAD
+}
+.leibol_2{
+    background-color: #010528;
+    border: gold;
+}
+.leibol_3{
+    background-color: #010528;
+    color: black;
+    background-color: gray;
+    height: 20px;
+    border: gold;
+    font-size: 16px;
+   
+}
+.leibol_3:hover{
+color: black;
+cursor: pointer;
+}
+
+
 /* Estilos FOOTER - LAURA*/
 .footer {
     display: flex;
@@ -362,4 +428,56 @@ a {
     align-items: center;
 }
 
+/*Parte numero 5 de la pagina Katherin y Sebastian/
+/*responsive pantalla tablet */
+
+@media (min-width: 720px) and (max-width: 1024px){
+    .leibol{
+        background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
+         margin-top: 100em;
+        
+     }
+     .leibol_3{
+         background-color: #010528;
+         color: black;
+         background-color: gray;
+         height: 30px;
+         border: gold;
+         font-size: 16px;
+         width: 17%;
+     }
+     .leibol_3:hover{
+     color: black;
+     cursor: pointer;
+     }
+     .leibol_2{
+         background-color: #010528;
+         border: gold;
+     }
+     .text{
+         color:var(--gold-color);
+         font-family: cursive;
+         font-size: 24px;
+         opacity:30%;
+         margin-right: 10%;
+     }
+     .text:hover{
+        color: goldenrod;
+        cursor:pointer;
+    
+     }
+     .text_1{
+         opacity: 30%;
+         font-size: 24px;
+         font-family: cursive;
+         height: 24%;
+     }
+     .text_1:hover{
+         color: goldenrod;
+         cursor: pointer;
+     }
+    
+    
+  
+}
 
