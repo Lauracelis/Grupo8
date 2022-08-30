@@ -314,7 +314,6 @@ a {
 /* este es el contendor principal de todos los div " contendor_vino_rosa" */
 =======
 
->>>>>>> 735860099404196ccfc382280797f54572cb44cb
 .contenedor_vino_rosa {
     height: 1024px;
     width: 100%;
@@ -359,10 +358,8 @@ a {
     width: 100%;
 }
 
-<<<<<<< HEAD
     .carta_de_vino_rosa {
-=======
-.carta_de_vino_rosa {
+
     background-color: none;
 >>>>>>> 735860099404196ccfc382280797f54572cb44cb
     height: 513px;
@@ -373,11 +370,8 @@ a {
     top: 20%;
 }
 
-<<<<<<< HEAD
     .caja_rosas {
-=======
-.caja_rosas {
->>>>>>> 735860099404196ccfc382280797f54572cb44cb
+
     background-color: white;
     width: 277px;
     height: 513px;
@@ -397,9 +391,6 @@ a {
             font-weight: 400px;
         }
 
-<<<<<<< HEAD
-
-
     /* DanaSuazo vino blanco */
     .contenedor_vino_blanco {
     height: 1024px;
@@ -412,11 +403,8 @@ a {
 
     color: aliceblue;
 =======
->>>>>>> 735860099404196ccfc382280797f54572cb44cb
-
     }
 
-<<<<<<< HEAD
     .h3_vinos {
     right: 0px;
     color: FFFFFF;
@@ -508,4 +496,3 @@ a {
     border-radius: 10px;
     border-color: #B29E6A;
 }
->>>>>>> 735860099404196ccfc382280797f54572cb44cb
