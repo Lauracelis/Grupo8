@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+<<<<<<< HEAD
+=======
 
 /*obivar toda esta parte ya que es el enlace de la pagina, la codificación empieza desde las linea 312 aproximadamente.*/
 
 
+>>>>>>> 7119cad74f31b80dbf2b3f768feef08d85985e58
 /* NO CAMBIAR NI BORRAR*/
 :root{
     --background-color: #010528;
@@ -24,6 +27,9 @@ body {
     background-color: var(--background-color);
     font-family: var(--secondary-font);
     font-size: 3em;
+<<<<<<< HEAD
+}
+=======
 }
 
 /*MOBILE MENU*/
@@ -326,9 +332,15 @@ a {
                                 height: 314px;
                                 width: 277px;
                                 background-size: cover;
+<<<<<<< HEAD
                                 background-position: center;
                                 border-radius: 10px;
                             }
                             .images-vino {
                               height: 313px;  
                             }
+=======
+         
+                            }
+>>>>>>> 7119cad74f31b80dbf2b3f768feef08d85985e58
+>>>>>>> origin/footer
