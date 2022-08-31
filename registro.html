@@ -1,87 +1,83 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>registro</title>
-    <link rel=”stylesheet” type=”text/css” href=”URL”>
+    <link href="http://acme.com/css/prueba.css"rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>INSCRIBETE</title>
 </head>
 <body>
     
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">nombres</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">apellidos</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
 
-<!-- INICIO FORMULARIO HTML -->
-<form method="POST" action="/index.php" class="needs-validation" novalidate>
 
-    <div class="form-row mt-5">
-        <div class="col-md-4 mb-3">
-            <label for="validarNombre">Nombre:<span class="red">*</span></label>
-            <input type="text" class="form-control" id="validarNombre" name="validarNombre" required>
+<div class="container-fluid px-1 py-5 mx-auto">
+    <div class="row d-flex justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+            <h3>Inscribete a nuestro club</h3>
+            <div class="card">
+                <form class="form-card" onsubmit="event.preventDefault()">
+                    <div class="row justify-content-between text-left">
+                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">First name<span class="text-danger"> *</span></label> <input type="text" id="fname" name="fname" placeholder="nombres" onblur="validate(1)"> </div>
+                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Last name<span class="text-danger"> *</span></label> <input type="text" id="lname" name="lname" placeholder="apellidos" onblur="validate(2)"> </div>
+                    </div>
+
+                    <div class="row justify-content-between text-left">
+                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">email<span class="text-danger"> *</span></label> <input type="text" id="email" name="email" placeholder="" onblur="validate(3)"> </div>
+                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">confirmar email<span class="text-danger"> *</span></label> <input type="text" id="mob" name="mob" placeholder="" onblur="validate(4)"> </div>
+                    </div>
+
+                    <div>
+                    
+                          <form name="formulario_fecha" method="post" action="/send.php">
+                          <!-- Campo de entrada de fecha -->
+                           fecha nacimiento
+                          <input type="date" name="fecha" min="2018-03-25" max="2018-05-25" step="2" /> 
+                 
+                        <form name="formulario_fecha" method="post" action="/send.php">
+                        <div class="confirmar_email">
+                        <div class="col-md-4 mb-3">
+                        <label for="validarTelefono">tipo documento:</label>
+                        <select class="documento_seleccionar" aria-label="Ejemplo de .form-select-lg">
+                        <option value="cedula ciudadania">cedula ciudadania</option>
+                        <option value="2">cedula extranjeria</option>
+                        <option value="3">pasaporte</option>
+                      </select>
+                    </div>
+                    <div class="formulario_nombre">
+                        <div class="col-md-4 mb-3">
+                            <label for="validarNombre">Número documento:<span class="red">*</span></label>
+                            <input type="text" class="form-control" id="validarNombre" name="validarNombre" required>
+                        </div>
+
+                        
+                
+                
+
+
+
+                    <center>.  
+                        <div class="terminos_condiciones">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              acepto terminos y condiciones
+                            </label>
+                        </div>
+                    </center>.
+                    
+                    
+                    
+                    <div class="text-aling:center">
+                        <div class="form-group col-sm-6"> <button type="submit" class="btn-block btn-primary">enviar</button> </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
+</div>
 
-    <div class="form-row">
-        <div class="col-md-4 mb-3">
-            <label for="validarApellidos">Apellidos:<span class="red">*</span></label>
-            <input type="text" class="form-control" id="validarApellidos" name="validarApellidos" required>
-        </div>
-    </div>
-
-    <div class="form-row">
-        <div class="col-md-4 mb-3">
-            <label for="validarEmail">Email:<span class="red">*</span></label>
-            <input type="email" class="form-control" id="validarEmail" name="validarEmail" required>
-        </div>
-    </div>
-
-    <div class="form-row">
-        <div class="col-md-4 mb-3">
-            <label for="validarTelefono">Teléfono:</label>
-            <input type="number" class="form-control" id="validarTelefono" name="validarTelefono" max="999999999">
-        </div>
-    </div>
-
-    <div class="form-row">
-        <div class="col-md-4 mb-3">
-            <label for="validarTema">Tema:<span class="red">*</span></label>
-            <select class="custom-select" id="validarTema" name="validarTema" required>
-                <option selected disabled value="">Selecciona...</option>
-                <option value="Problema con acceso a Web">Problema con acceso a Web</option>
-                <option value="Propuesta de colaboración">Propuesta de colaboración</option>
-                <option value="Eliminar mi usuario de la Web">Eliminar mi usuario de la Web</option>
-                <option value="Otras cuestiones">Otras cuestiones</option>
-            </select>
-        </div>
-    </div>
-
-    <div class="form-row">
-        <div class="col-md-4 mb-3">
-            <label for="validarAsunto">Asunto:</label>
-            <input type="text" class="form-control" id="validarAsunto" name="validarAsunto" required>
-        </div>
-    </div>
-
-    <div class="form-group">
-        <label for="validationMensaje">Mensaje:<span class="red">*</span></label>
-        <textarea class="form-control" id="validationMensaje" name="validationMensaje" rows="3" min="25" required></textarea>
-    </div>
-
-    <div class="form-group mb-10">
-        <button class="btn btn-primary" type="submit" name="submit">Enviar</button>
-        <button class="btn btn-success" type="reset" name="reset">Limpiar</button>
-    </div>
-</form>
-
-
-</body>
 </html>
+
 
