@@ -1,31 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
-
 /*obivar toda esta parte ya que es el enlace de la pagina, la codificación empieza desde las linea 312 aproximadamente.*/
 
 
 /* NO CAMBIAR NI BORRAR*/
-:root {
-    --background-color: #010528;
-    --gold-color: #B29E6A;
-    --primary-color-text: #F2F2F2;
-    --second-color-text: #101010;
-    --primary-font: 'Playfair Display', serif;
-    --secondary-font: 'Source Sans Pro', sans-serif;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    font-size: 25px;
-}
-
-body {
-    background-color: var(--background-color);
-    font-family: var(--secondary-font);
-    font-size: 3em;
-}
 
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
@@ -72,7 +48,7 @@ a {
     list-style: none;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.993);
-    font-family: var(--primary-font);
+    font-family: var(--primary-font );
 }
 
 .header li a {
@@ -319,35 +295,11 @@ a {
     display: flex;
     position: relative;
     flex-direction: column;
+    
 }
 
-/*Anderson Castillo*/
-.partbyAnderson {
-    height: 1024px;
-    width: 100%;
-}
 
-.title_vinos1 {
-    width: 409px;
-    height: 89px;
-    left: 71px;
-    top: 79px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 55px;
-    line-height: 18px;
-    /* or 33% */
-    text-align: right;
-    color: #FFFFFF;}
-
-.h3_vinos {
-    right: 0px;
-    color: FFFFFF;
-    width: 100%;
-}
-
-    .carta_de_vino_rosa {
+.carta_de_vino_rosa {
 
     background-color: none;
     height: 513px;
@@ -355,6 +307,72 @@ a {
     display: flex;
     justify-content: space-around;
     margin: 40px;
+    position: absolute;
+}
+
+/*Anderson Castillo*/
+
+.fondo_Vino{
+    height: 1024px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-image: url(../images/bg3-vinorosado.jpg);
+    background-size:cover;
+    opacity: 0.3;
+
+}
+.contenedor_vino_rosa001 {
+    height: 1024px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-size:cover;
+}
+
+ .title_vinos001 {
+        position: absolute;
+        top: 80px;
+        width: 409px;
+        height: 89px;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 55px;
+        line-height: 18px;
+        text-align: right;
+        color: #FFFFFF;
+ }
+
+.h3_vinos {
+    right: 0px;
+    color: FFFFFF;
+    width: 100%;
+}
+    .nombreVino {
+        color: #11111;
+        font-family:playfair display bold;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 18px;
+    }
+
+    .carta_de_vino_rosa001 {
+
+    background-color: none;
+    height: 513px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    position: absolute;
+    top: 20%;
 }
 
     .caja_rosas {
@@ -375,6 +393,23 @@ a {
             color: #F2F2F2;
             font-size: 11px !important;
             font-weight: 400px;
+        }
+    .footer010 {
+     height: 110px;
+    width: 100%;
+    display: flex;
+justify-content: center;
+position: absolute;
+bottom: 0px;
+background-color: #04125C30;
+    }
+
+        .footer001 {
+    background-image: url(../images/Recurso5.png);
+    background-size: cover;
+            height: 80.34px;
+            width: 800px;
+            margin: 20px;
         }
 
     /* DanaSuazo vino blanco */
@@ -421,6 +456,7 @@ a {
 
 
 }
+
 
 /* DanaSuazo vino blanco */
 
@@ -472,3 +508,4 @@ a {
     border-radius: 10px;
     border-color: #B29E6A;
 }
+
