@@ -22,8 +22,8 @@ body {
   font-family: var(--secondary-font);
 }
 
-/* /MOBILE MENU/ */
-@media (min-width: 481px) and (max-width: 767px) {
+/* /MOBILE/ */
+@media (min-width: 360px) and (max-width:640px) {
   a {
     color: var(--second-color-text);
   }
@@ -293,20 +293,14 @@ footer{
     background-color: var(--background-color);
   }
 
-<<<<<<< HEAD
+
   .header .menu-icon {
     display: none;
   }
-=======
     .header .menu-icon {
         display: none;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a1bafa064c28f0ebf64163d507b8590ab7bc5824
->>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
+
 }
 /* /Final header/ */
 
@@ -431,23 +425,16 @@ footer{
     transition: transform 0.3s ease-in-out;
 
     border: solid 3px #fff;
->>>>>>> origin/footer
->>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
-
   font-size: 15px;
   text-align: center;
   font-weight: bold;
 }
 
-<<<<<<< HEAD
 .grid-card-1:hover {
-<<<<<<< HEAD
   filter: opacity(0.9);
   transform: scale(1.04);
-=======
-=======
+
 .grid-item-1:hover {
->>>>>>> origin/footer
     filter: opacity(0.9);
     transform: scale(1.04);
 >>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
@@ -456,15 +443,12 @@ footer{
 <<<<<<< HEAD
 .grid-card-2 {
   justify-content: center;
-
   background-color: var(--primary-color-text);
   border-radius: 5px;
   transition: transform 0.3s ease-in-out;
-
-<<<<<<< HEAD
   border: solid 3px var(--primary-color-text);
-=======
     border: solid 3px var(--primary-color-text);
+    }
 /* estilos card 2 */
 {
     justify-content: center;
@@ -475,22 +459,16 @@ footer{
 
     border: solid 3px #fff;
 
->>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
-
   font-size: 15px;
   text-align: center;
   font-weight: bold;
 }
 
-<<<<<<< HEAD
 .grid-card-2:hover {
-<<<<<<< HEAD
   filter: opacity(0.9);
   transform: scale(1.04);
-=======
-=======
 .grid-item-2:hover {
->>>>>>> origin/footer
+
     filter: opacity(0.9);
     transform: scale(1.04);
 >>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
@@ -852,15 +830,6 @@ origin/footer
      cursor: pointer;
  }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/footer
-=======
->>>>>>> 7119cad74f31b80dbf2b3f768feef08d85985e58
->>>>>>> origin/footer
-=======
->>>>>>> a1bafa064c28f0ebf64163d507b8590ab7bc5824
->>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
 
 /* Estilos FOOTER - LAURA*/
 footer {
