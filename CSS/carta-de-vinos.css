@@ -1,32 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
-
-/*obivar toda esta parte ya que es el enlace de la pagina, la codificación empieza desde las linea 312 aproximadamente.*/
-
-
-/* NO CAMBIAR NI BORRAR*/
-:root {
-    --background-color: #010528;
-    --gold-color: #B29E6A;
-    --primary-color-text: #F2F2F2;
-    --second-color-text: #101010;
-    --primary-font: 'Playfair Display', serif;
-    --secondary-font: 'Source Sans Pro', sans-serif;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    font-size: 25px;
-}
-
-body {
-    background-color: var(--background-color);
-    font-family: var(--secondary-font);
-    font-size: 3em;
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
@@ -325,8 +296,6 @@ a {
 .partbyAnderson {
     height: 1024px;
     width: 100%;
-    background-color: red;
-
 }
 
 
@@ -387,13 +356,13 @@ a {
     left: 71px;
     top: 79px;
     font-family: 'Playfair Display';
-    font-style: normal;
     font-weight: 600;
     font-size: 55px;
     line-height: 18px;
     /* or 33% */
     text-align: right;
     color: #FFFFFF;
+    margin: 20px;
 }
 
 .buy_button {
@@ -412,4 +381,19 @@ a {
     background: #B29E6A;
     border-radius: 10px;
     border-color: #B29E6A;
+}
+
+.text_superior {
+    position: absolute;
+    width: 1122px;
+    height: 66px;
+    left: 145px;
+    top: 129px;
+    color: #F2F2F2;
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
 }
