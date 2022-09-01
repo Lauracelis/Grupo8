@@ -395,7 +395,7 @@ a {
             font-weight: 400px;
         }
     .footer010 {
-     height: 110px;
+     height: 150px;
     width: 100%;
     display: flex;
 justify-content: center;
@@ -409,7 +409,7 @@ background-color: #04125C30;
     background-size: cover;
             height: 80.34px;
             width: 800px;
-            margin: 20px;
+            margin: 35px;
         }
 
     /* DanaSuazo vino blanco */
