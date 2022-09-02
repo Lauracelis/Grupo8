@@ -11,6 +11,12 @@
     --secondary-font: 'Source Sans Pro', sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: var(--background-color);
 }
@@ -217,6 +223,8 @@ body {
 .grid-container-x {
     display: grid;
     grid-template-rows: 1000px;
+    width: 100%;
+    font-family: var(--secondary-font);
     Background-repeat: no-repeat;
     object-fit: contain;
     background-image: url(/images/img_3.jpg);
@@ -232,21 +240,6 @@ body {
     padding: 120px 100px;
     color: white;
 }
-
-/* .grid-container-x div {
-    height: auto;
-    background-position: center;
-    color: white;
-}
-
-.grid-container-x p {
-    font-size: 40px;
-    font-weight: bold;
-    margin-top: 150px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    padding-left: 100px;
-} */
 
 .btn-unirme{
     font-weight: bold;
@@ -276,6 +269,8 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: 570px;
+    margin-top: -300px;
+    font-family:var(--secondary-font);
     gap: 30px;
     padding: 20px;
     background-color: var(--background-color);
