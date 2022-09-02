@@ -282,7 +282,10 @@ a {
     display: none;
 }
 
-.contenedor_vino_rosa {
+
+/*Anderson Castillo*/
+
+.fondo_Vino {
     height: 1024px;
     width: 100%;
     margin: 0px;
@@ -290,14 +293,36 @@ a {
     display: flex;
     position: relative;
     flex-direction: column;
+    background-image: url(../images/bg3-vinorosado.jpg);
+    background-size: cover;
+    opacity: 0.3;
+
 }
 
-/*Anderson Castillo*/
-.partbyAnderson {
+.contenedor_vino_rosa001 {
     height: 1024px;
     width: 100%;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-size: cover;
 }
 
+.title_vinos001 {
+    position: absolute;
+    top: 80px;
+    width: 409px;
+    height: 89px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 18px;
+    text-align: right;
+    color: #FFFFFF;
+}
 
 .h3_vinos {
     right: 0px;
@@ -305,13 +330,24 @@ a {
     width: 100%;
 }
 
-.carta_de_vino_rosa {
+.nombreVino {
+    color: black;
+    font-family: playfair display bold;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 18px;
+}
+
+.carta_de_vino_rosa001 {
+
     background-color: none;
     height: 513px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     margin: 40px;
+    position: absolute;
+    top: 20%;
 }
 
 .caja_rosas {
@@ -323,47 +359,37 @@ a {
     flex-direction: column;
 }
 
-.jamshed {
-    background-image: url(images/vino-blanco-1.jpg);
-    height: 314px;
+.images-vino {
+    height: 277px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.textoVinos .texto_vinos_vinos p {
+    height: 125px;
+    color: #F2F2F2;
+    font-size: 11px !important;
+    font-weight: 400px;
+}
+
+.footer010 {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    background-color: #04125C30;
+}
+
+.footer001 {
+    background-image: url(../images/Recurso5.png);
     background-size: cover;
-    background-position: center;
-
-
+    height: 80.34px;
+    width: 800px;
+    margin: 35px;
 }
 
 /* DanaSuazo vino blanco */
-
-
-.jamshed {
-    background-color: white;
-    height: 314px;
-    width: 277px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-
-}
-
-.images-vino {
-    height: 313px;
-
-}
-
-.title_vinos {
-    width: 409px;
-    height: 89px;
-    left: 71px;
-    top: 79px;
-    font-family: 'Playfair Display';
-    font-weight: 600;
-    font-size: 55px;
-    line-height: 18px;
-    /* or 33% */
-    text-align: right;
-    color: #FFFFFF;
-    margin: 20px;
-}
 
 .buy_button {
     font-family: 'Tahoma';
@@ -383,17 +409,45 @@ a {
     border-color: #B29E6A;
 }
 
-.text_superior {
+.fondo_Vino_blanco {
+    height: 1024px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-image: url(../images/bg\ 2-vino\ balco.jpg);
+    background-size: cover;
+    opacity: 0.3;
+
+}
+
+.fondo_Vino_tinto {
+    height: 1024px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-image: url(../images/bg\ 1-vino\ titnto.jpg);
+    background-size: cover;
+    opacity: 0.3;
+
+}
+
+.text_inicial {
     position: absolute;
     width: 1122px;
     height: 66px;
     left: 145px;
-    top: 129px;
-    color: #F2F2F2;
     font-family: 'Source Sans Pro';
     font-style: italic;
     font-weight: 300;
     font-size: 25px;
     line-height: 31px;
     text-align: center;
+    color: rgba(255, 255, 255, 0.5);
 }
+
