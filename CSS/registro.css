@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+:root {
+  --background-color: #010528;
+  --gold-color: #b29e6a;
+  --transparency: #10101086;
+  --primary-color-text: #f2f2f2;
+  --second-color-text: #101010;
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Source Sans Pro", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
