@@ -303,6 +303,7 @@ body {
     }
 }/*Final header*/
 
+
 /* Inicio seccion del div de vino */
 
 .grid-container-x {
@@ -324,21 +325,6 @@ body {
     color: white;
 }
 
-/* .grid-container-x div {
-    height: auto;
-    background-position: center;
-    color: white;
-}
-
-.grid-container-x p {
-    font-size: 40px;
-    font-weight: bold;
-    margin-top: 150px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    padding-left: 100px;
-} */
-
 .btn-unirme{
     font-weight: bold;
     font-family: var(--secondary-font);
@@ -359,8 +345,8 @@ body {
 /* finaliza seccion del div de vino */
 
 
-
 /*Inicio parte 1*/
+
 /*Aca empieza el primer container que es de las cards*/
 /* estilos del grid container */
 .grid-container {
@@ -369,6 +355,7 @@ body {
     grid-auto-rows: 570px;
     gap: 30px;
     padding: 20px;
+    margin-top: -300px;
     background-color: var(--background-color);
 }
 
