@@ -171,11 +171,66 @@ a {
 }
 /* responsive pantalla mobile*/
 @media (min-width: 320px) and (max-width: 640px){
- 
-     .leibol{
+      .leibol{
+        background-image: url(../images/mae-mu-rgEHTLwaI_8-unsplash.jpg);
+          opacity: var(--background-color);
+          margin-top: 100%;
+          width: 100%;
+          height: 200px;
+
         
-         align-items: center;
-     }  
+     }
+
+     .leibol_3{
+        color: var(--second-color-text);
+         background-color: var(--gold-color);
+         font-family: var(--primary-font);
+         font-size: 17px;
+         cursor: pointer;
+        padding-left: 3px;
+        padding-right: 3px;
+         font-weight: bold;
+         padding-bottom: 3px;
+        
+     }
+
+     .leibol_2{
+        background-color:var(--background-color);
+       opacity: 35%;
+        width: 57%;
+        height: 20px;
+       margin-left: 6%;
+      height: 25px;
+       margin-top: 5%;
+       padding-top: 3px;
+  
+      
+        
+   }
+   .text{
+    color:var(--primary-color-text);
+    font-family: var(--secondary-font);
+    font-size: 17px;
+     opacity: 60%;
+    margin-left: 1%;
+    cursor: pointer;
+    text-align: center;
+    
+  
+}
+
+
+.text_1{ 
+    font-size: 16px;
+    font-family: cursive;
+    color: var(--primary-color-text);
+    opacity: 65%;
+    margin-left: 10%;  
+    margin-top: 10px;
+    
+}
+
+
  
     
 }
