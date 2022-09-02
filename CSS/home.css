@@ -485,16 +485,5 @@ body {
     text-align: end;
     font-family: 'Playfair Display', serif;
 }
-/* estilo de texto de la grid 4 */
 /*Hasta aca llega la seccion de cards*/
 
-/* Estilos FOOTER - LAURA*/
-footer {
-    display: flex;
-    flex-direction: column;
-    background-color: #060b38f6;
-    width: auto;
-    height: 5em;
-    justify-content: center;
-    align-items: center;
-}
