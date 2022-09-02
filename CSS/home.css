@@ -170,16 +170,13 @@ a {
     top: 0;
 }
 /* responsive pantalla mobile*/
-@media (min-width: 100px) and (max-width: 719px){
-    .leibol_3{
-        margin-left: 40%;
-    
-       
-          
-    }
-    .text{
-        font-size: 10px;
-    }
+@media (min-width: 320px) and (max-width: 640px){
+ 
+     .leibol{
+        
+         align-items: center;
+     }  
+ 
     
 }
 
@@ -236,11 +233,64 @@ a {
     .header .menu-icon {
         display: none;
     }
-   i
    
-    .text{
-        font-size: 15px;
-        }
+    .leibol{
+        background-image: url(../images/mae-mu-rgEHTLwaI_8-unsplash.jpg);
+          opacity:65%;
+          margin-top: 100%;
+          width: 100%;
+          height: 250px;
+
+        
+     }
+
+     .leibol_3{
+        color: var(--second-color-text);
+         background-color: var(--gold-color);
+         font-family: var(--primary-font);
+         font-size: 18px;
+         cursor: pointer;
+         padding-bottom: 11px;
+         padding-top: 3px;
+         font-weight: bold;
+         padding-left: 3px;
+         padding-right: 3px;   
+     }
+
+     .leibol_2{
+        background-color:var(--background-color);
+       opacity: 35%;
+        width: 40%;
+        height: 38px;
+       margin-left: 1%;
+       margin-top: 5%;
+       padding-bottom: 2px;
+  
+      
+        
+   }
+   .text{
+    color:var(--primary-color-text);
+    font-family: var(--secondary-font);
+    font-size: 25px;
+     opacity: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    cursor: pointer;
+    
+  
+}
+
+
+.text_1{ 
+    font-size: 18px;
+    font-family: cursive;
+    color: var(--primary-color-text);
+    opacity: 65%;
+    margin-left: 2%;   
+}
+
+   
     }
 
 /*responsive pantallas grandes*/
@@ -299,6 +349,60 @@ a {
         display: none;
     }
 
+    .leibol{
+        background-image: url(../images/mae-mu-rgEHTLwaI_8-unsplash.jpg);
+          opacity: var(--background-color);
+          margin-top: 100%;
+          width: 100%;
+          height: 200px;
+
+        
+     }
+
+     .leibol_3{
+        color: var(--second-color-text);
+         background-color: var(--gold-color);
+         font-family: var(--primary-font);
+         font-size: 18px;
+         cursor: pointer;
+         padding-bottom: 11px;
+         padding-top: 3px;
+         font-weight: bold;
+         padding-left: 3px;
+         padding-right: 3px;   
+     }
+
+     .leibol_2{
+        background-color:var(--background-color);
+       opacity: 35%;
+        width: 57%;
+        height: 40px;
+       margin-left: 1%;
+       margin-top: 2%;
+  
+      
+        
+   }
+   .text{
+    color:var(--primary-color-text);
+    font-family: var(--secondary-font);
+    font-size: 21px;
+   opacity: 60%;
+    margin-left: 31%;
+    cursor: pointer;
+  
+}
+
+
+.text_1{ 
+    font-size: 18px;
+    font-family: cursive;
+    color: var(--primary-color-text);
+    opacity: 65%;
+    margin-left: 2%;   
+}
+
+
 }/*Final header*/
 
 
@@ -344,60 +448,6 @@ a {
 
 
 
-/*Parte numero 5 de la pagina Katherin y Sebastian*/
-.leibol{
-    background-image: url(../images/mae-mu-rgEHTLwaI_8-unsplash.jpg);
-      margin-top: 100%;
-      width: 100%;
-      height: 200px;
-       
- }
- .leibol_3{
-    color: var(--primary-color-text);
-     background-color: gray;
-     opacity: 40%;
-     height: 37px;
-     font-family: var(--primary-font);
-     font-size: 16px;
-     width: 5%;
-     cursor: pointer;
-     
-    
-    
- }
- 
- .leibol_2{
-      background-color:var(--background-color);
-     opacity: 15%;
-      width: 31%;
-      height: 30px;
-     margin-left: 4%;
-    margin-top: 2%;
-    
-      
- }
- .text{
-   
-     color:var(--primary-color-text);
-     font-family: var(--secondary-font);
-     font-size: 20px;
-     opacity: 30%;
-     margin-left: 26%;
-     cursor: pointer;
-     
-     
- }
- 
-
- .text_1{
-     opacity: 30%;
-     font-size: 19px;
-     font-family: cursive;
-     color: var(--primary-color-text);
-     text-decoration-line: underline;
-     margin-left: 5%;
-     
- }
 
  
 
