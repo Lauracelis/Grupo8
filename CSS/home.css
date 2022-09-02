@@ -169,7 +169,7 @@ body {
 
 /* responsive pantalla celular */
 
-@media(min-width: 300px) and (max-width: 720px){
+@media(min-width: 360px) and (max-width: 719px){
 
     .grid-container{
         width: 270px;
@@ -186,7 +186,7 @@ body {
 
 
 /*responsive pantalla tablet */
-@media (min-width: 700px) and (max-width: 1024px) {
+@media (min-width: 720px) and (max-width: 1024px) {
     .header {
         background-color: var(--background-color);
     }
@@ -247,7 +247,7 @@ body {
 }
 
 /*responsive pantallas grandes*/
-@media (min-width: 1025px) {
+@media (min-width: 1025px) and (max-width: 1920px){
     header {
         background-color: var(--background-color);
     }
@@ -307,7 +307,9 @@ body {
 
 .grid-container-x {
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: 1000px;
+    Background-repeat: no-repeat;
+    object-fit: contain;
     background-image: url(/images/img_3.jpg);
     
 }
