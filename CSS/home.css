@@ -169,7 +169,7 @@ body {
 
 /* responsive pantalla celular */
 
-@media(min-width: 360px) and (max-width: 719px){
+@media(min-width: 300px) and (max-width: 720px){
 
     .grid-container{
         width: 270px;
@@ -186,7 +186,7 @@ body {
 
 
 /*responsive pantalla tablet */
-@media (min-width: 720px) and (max-width: 1024px) {
+@media (min-width: 700px) and (max-width: 1024px) {
     .header {
         background-color: var(--background-color);
     }
@@ -247,7 +247,7 @@ body {
 }
 
 /*responsive pantallas grandes*/
-@media (min-width: 1025px) and (max-width: 1920px){
+@media (min-width: 1025px) {
     header {
         background-color: var(--background-color);
     }
@@ -303,7 +303,6 @@ body {
     }
 }/*Final header*/
 
-
 /* Inicio seccion del div de vino */
 
 .grid-container-x {
@@ -325,6 +324,21 @@ body {
     color: white;
 }
 
+/* .grid-container-x div {
+    height: auto;
+    background-position: center;
+    color: white;
+}
+
+.grid-container-x p {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+} */
+
 .btn-unirme{
     font-weight: bold;
     font-family: var(--secondary-font);
@@ -345,8 +359,8 @@ body {
 /* finaliza seccion del div de vino */
 
 
-/*Inicio parte 1*/
 
+/*Inicio parte 1*/
 /*Aca empieza el primer container que es de las cards*/
 /* estilos del grid container */
 .grid-container {
@@ -355,7 +369,6 @@ body {
     grid-auto-rows: 570px;
     gap: 30px;
     padding: 20px;
-    margin-top: -300px;
     background-color: var(--background-color);
 }
 
@@ -485,5 +498,16 @@ body {
     text-align: end;
     font-family: 'Playfair Display', serif;
 }
+/* estilo de texto de la grid 4 */
 /*Hasta aca llega la seccion de cards*/
 
+/* Estilos FOOTER - LAURA*/
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #060b38f6;
+    width: auto;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+}
