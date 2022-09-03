@@ -170,14 +170,60 @@ a {
     top: 0;
 }
 /* responsive pantalla mobile*/
-@media (min-width: 100px) and (max-width: 719px){
+@media (min-width: 320px) and (max-width: 640px){
     .leibol{
-        text-align: center;
+        background-image: url(../images/mae-mu-rgEHTLwaI_8-unsplash.jpg);
+          opacity: var(--background-color);
+          margin-top: 100%;
+          width: 100%;
+          height: 200px;
+
         
-    }
-    .text{
-        font-size: 10px;
-    }
+     }
+
+     .leibol_3{
+        color: var(--second-color-text);
+         background-color: var(--gold-color);
+         font-family: var(--primary-font);
+         font-size: 17px;
+         cursor: pointer;
+        padding-left: 3px;
+        padding-right: 3px;
+         font-weight: boild;
+         padding-bottom: 3px;
+     }
+     .leibol_2{
+        background-color:var(--background-color);
+       opacity: 35%;    
+        width: 57%;
+        height: 20px;
+       margin-left: 6%;
+      height: 25px;
+       margin-top: 5%;
+       padding-top: 3px;
+     
+   }
+   .text{
+    color:var(--primary-color-text);
+    font-family: var(--secondary-font);
+    font-size: 17px;
+     opacity: 60%;
+    margin-left: 1%;
+    cursor: pointer;
+    text-align: center;
+  
+}
+.text_1{ 
+    font-size: 16px;
+    font-family: cursive;
+    color: var(--primary-color-text);
+    opacity: 65%;
+    margin-left: 10%;  
+    margin-top: 10px;
+    
+}
+
+  
 }
 
 /*responsive pantalla table:t */
@@ -234,12 +280,55 @@ a {
         display: none;
     }
     .leibol{
-        text-align: center;
-        
-    }
-    .text{
-        font-size: 15px;
-    }
+        background-image: url(../images/mae-mu-rgEHTLwaI_8-unsplash.jpg);
+          opacity:65%;
+          margin-top: 100%;
+          width: 100%;
+          height: 250px;
+  
+     }
+     .leibol_3{
+        color: var(--second-color-text);
+         background-color: var(--gold-color);
+         font-family: var(--primary-font);
+         font-size: 18px;
+         cursor: pointer;
+         padding-bottom: 11px;
+         padding-top: 3px;
+         font-weight: bold;
+         padding-left: 3px;
+         padding-right: 3px;   
+     }
+     .leibol_2{
+        background-color:var(--background-color);
+       opacity: 35%;
+        width: 40%;
+        height: 38px;
+       margin-left: 1%;
+       margin-top: 5%;
+       padding-bottom: 2px;
+     
+   }
+   .text{
+    color:var(--primary-color-text);
+    font-family: var(--secondary-font);
+    font-size: 25px;
+     opacity: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    cursor: pointer;
+  
+  
+}
+
+
+.text_1{ 
+    font-size: 18px;
+    font-family: cursive;
+    color: var(--primary-color-text);
+    opacity: 65%;
+    margin-left: 2%;
+}
 }
 
 /*responsive pantallas grandes*/
@@ -297,11 +386,56 @@ a {
     .header .menu-icon {
         display: none;
     }
+    .leibol{
+        background-image: url(../images/mae-mu-rgEHTLwaI_8-unsplash.jpg);
+          opacity: var(--background-color);
+          margin-top: 100%;
+          width: 100%;
+          height: 200px;
+
+        
+     }
+     .leibol_3{
+        color: var(--second-color-text);
+         background-color: var(--gold-color);
+         font-family: var(--primary-font);
+         font-size: 18px;
+         cursor: pointer;
+         padding-bottom: 11px;
+         padding-top: 3px;
+         font-weight: bold;
+         padding-left: 3px;
+         padding-right: 3px;   
+     }
+     .leibol_2{
+        background-color:var(--background-color);
+       opacity: 35%;
+        width: 57%;
+        height: 40px;
+       margin-left: 1%;
+       margin-top: 2%;
+    
+   }
+   .text{
+    color:var(--primary-color-text);
+    font-family: var(--secondary-font);
+    font-size: 21px;
+   opacity: 60%;
+    margin-left: 31%;
+    cursor: pointer; 
+}
+.text_1{ 
+    font-size: 18px;
+    font-family: cursive;
+    color: var(--primary-color-text);
+    opacity: 65%;
+    margin-left: 2%;   
+}
 
 }/*Final header*/
 
 
-<<<<<<< HEAD
+
 
 /* estilo de texto de la grid 4 */
 #vino {
@@ -320,59 +454,11 @@ a {
 }
 /* estilo de texto de la grid 4 */
 /*Hasta aca llega la seccion de cards*/
-=======
->>>>>>> e37aa3b86f4efafa686a13d7c5b41291a809da64
 
 
-/*Parte numero 5 de la pagina Katherin y Sebastian*/
-.leibol{
-    background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
-     margin-top: 100em;
-     color: goldenrod;
-     margin-left: 1%;
- }
- .text_1{
-    opacity: 30%;
-    font-size: 14px;
-    font-family: cursive;
-}
-.text_1:hover{
-    color: goldenrod;
-    cursor: pointer;
-}
-.text{
-    color:gold;
-    font-family: cursive;
-    font-size: 13px;
-    opacity:30%;
-   
-}
-.text:hover{
-   color: goldenrod;
-   cursor:pointer;
 
-<<<<<<< HEAD
-}
-.leibol_2{
-    background-color: #010528;
-    border: gold;
-}
-.leibol_3{
-    background-color: #010528;
-    color: black;
-    background-color: gray;
-    height: 20px;
-    border: gold;
-    font-size: 16px;
-   
-}
-.leibol_3:hover{
-color: black;
-cursor: pointer;
-}
 
-=======
->>>>>>> e37aa3b86f4efafa686a13d7c5b41291a809da64
+
 /* Estilos FOOTER - LAURA*/
 .footer {
     display: flex;
@@ -383,62 +469,4 @@ cursor: pointer;
     justify-content: center;
     align-items: center;
 }
-<<<<<<< HEAD
-/*Parte numero 5 de la pagina Katherin y Sebastian/
-/*responsive pantalla tablet */
 
-@media (min-width: 720px) and (max-width: 1024px){
-    .leibol{
-        background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
-         margin-top: 100em;
-         color: goldenrod;
-         margin-left: 1%;
-        
-     }
-     .leibol_3{
-         background-color: #010528;
-         color: black;
-         background-color: gray;
-         height: 30px;
-         border: gold;
-         font-size: 16px;
-         width: 17%;
-     }
-     .leibol_3:hover{
-     color: black;
-     cursor: pointer;
-     }
-     .leibol_2{
-         background-color: #010528;
-         border: gold;
-     }
-     .text{
-         color:var(--gold-color);
-         font-family: cursive;
-         font-size: 24px;
-         opacity:30%;
-         margin-right: 10%;
-     }
-     .text:hover{
-        color: goldenrod;
-        cursor:pointer;
-    
-     }
-     .text_1{
-         opacity: 30%;
-         font-size: 24px;
-         font-family: cursive;
-         height: 24%;
-     }
-     .text_1:hover{
-         color: goldenrod;
-         cursor: pointer;
-     }
-    
-    
-  
-}
-=======
-
-
->>>>>>> e37aa3b86f4efafa686a13d7c5b41291a809da64
