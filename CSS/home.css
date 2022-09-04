@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
@@ -9,12 +10,345 @@
   --second-color-text: #101010;
   --primary-font: 'Playfair Display', serif;
   --secondary-font: 'Source Sans Pro', sans-serif;
+=======
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+:root {
+  --background-color: #010528;
+  --gold-color: #b29e6a;
+  --transparency: #10101086;
+  --primary-color-text: #f2f2f2;
+  --second-color-text: #101010;
+  --primary-font: "Playfair Display", serif;
+  --secondary-font: "Source Sans Pro", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+>>>>>>> grid
 }
 
 body {
   background-color: var(--background-color);
+  font-family: var(--secondary-font);
 }
+<<<<<<< HEAD
 /*MOBILE MENU*/
+=======
+
+/* /MOBILE MENU/ */
+@media (min-width: 481px) and (max-width: 767px) {
+  a {
+    color: var(--second-color-text);
+  }
+  /* header */
+  .header {
+    background-color: var(--background-color);
+    box-shadow: 1px 1px 4px 0 rgba(122, 0, 0, 0.664);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.993);
+    font-family: var(--primary-font);
+  }
+
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid var(--background-color);
+    text-decoration: none;
+  }
+
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #f5f5f5fb;
+    color: rgb(83, 0, 0);
+  }
+
+  .logo {
+    display: block;
+    float: left;
+    width: 1.5em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  /* menu */
+
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+
+  /* menu icon */
+
+  .header .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+
+  .header .menu-icon .nav-icon {
+    background: var(--gold-color);
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background 0.2s ease-out;
+    width: 18px;
+  }
+
+  .header .menu-icon .nav-icon:before,
+  .header .menu-icon .nav-icon:after {
+    background: var(--gold-color);
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.2s ease-out;
+    width: 100%;
+  }
+
+  .header .menu-icon .nav-icon:before {
+    top: 5px;
+  }
+
+  .header .menu-icon .nav-icon:after {
+    top: -5px;
+  }
+
+  /* menu btn */
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+  }
+
+  .btn-login {
+    font-family: var(--primary-font);
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  .btn-login:hover {
+    background-color: #b29e6a;
+    color: var(--primary-color-text);
+  }
+
+  .btn-create_account {
+    border: none;
+    font-family: var(--primary-font);
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  .btn-create_account:hover {
+    background-color: #b29e6a;
+    color: var(--primary-color-text);
+  }
+
+  .header .menu-btn {
+    display: none;
+  }
+
+  .header .menu-btn:checked ~ .menu {
+    max-height: 840px;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top: 0;
+  }
+
+
+/*FOOTER*/
+footer{
+    display: block;
+    align-items: center;
+}
+.great-wall{
+    width: 30em;
+    background-color: none; 
+}
+
+
+
+}
+
+/*responsive pantalla tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    background-color: var(--background-color);
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 85px;
+  }
+
+  .btn-login {
+    width: 150px;
+  }
+
+  /*.btn-create_account {
+
+    }*/
+
+  .header li {
+    float: left;
+    border: none;
+  }
+
+  .header li a {
+    padding: 20px 20px;
+    color: var(--primary-color-text);
+  }
+
+  .header li a:hover {
+    background-color: rgba(255, 255, 255, 0.021);
+    color: var(--gold-color);
+    cursor: pointer;
+  }
+
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+    background-color: var(--background-color);
+  }
+
+<<<<<<< HEAD
+    .header .menu-icon {
+        display: none;
+    }
+
+
+}
+
+  
+    }
+
+    
+   
+
+/*responsive pantallas grandes*/
+=======
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+/* /responsive pantallas grandes/ */
+>>>>>>> 6d9630e56413b8b578ac12c28e2b1eca4cc65fae
+@media (min-width: 1025px) {
+  header {
+    margin-top: -150px;
+    background-color: var(--background-color);
+  }
+
+  .logo {
+    display: flex;
+    width: 3em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 85px;
+  }
+
+  .btn-login {
+    width: 150px;
+  }
+
+  .btn-create_account {
+    width: 150px;
+  }
+
+  .header li {
+    float: left;
+    border: none;
+  }
+
+  .header li a {
+    font-size: large;
+    padding: 20px 20px;
+    color: var(--primary-color-text);
+  }
+
+  .header li a:hover {
+    background-color: rgba(255, 255, 255, 0.021);
+    color: var(--gold-color);
+    cursor: pointer;
+  }
+
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+    background-color: var(--background-color);
+  }
+
+<<<<<<< HEAD
+  .header .menu-icon {
+    display: none;
+  }
+=======
+    .header .menu-icon {
+        display: none;
+    }
+<<<<<<< HEAD
+/*Final header*/
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a1bafa064c28f0ebf64163d507b8590ab7bc5824
+>>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
+}
+/* /Final header/ */
+
+>>>>>>> grid
 /* SECCION #3  SECTION INFORMATION "JEREMY/SARA" */
 
 .sectionInformation_grid-container {
@@ -28,7 +362,7 @@ body {
   background-size: 84.5px 83px;
 }
 .sectionInformation_grid-article {
-  background-color: #10101086;
+  background-color: #10101086; /*variable*/
   grid-column: 2 / 6;
   grid-row: auto;
   /* opacity: 0.7; */
@@ -58,19 +392,23 @@ body {
 }
 
 .sectionInformation_grid-seccion_text button:hover {
-  background: #caa575;
+  background: #caa575; /*variable*/
   cursor: pointer;
 }
 
 .sectionInformation_grid-seccion_img {
   padding: 20px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> grid
 .sectionInformation_grid-seccion_img img {
   grid-row: auto;
   width: 100%;
   height: 100%;
   object-fit: cover;
+<<<<<<< HEAD
 }
 
 @media only screen and (max-width: 900px) {
@@ -358,6 +696,53 @@ body {
 /* finaliza seccion del div de vino */
 
 
+=======
+>>>>>>> 6d9630e56413b8b578ac12c28e2b1eca4cc65fae
+}
+
+/*Inicio parte 1*/
+.grid-container-x {
+  margin-top: 150px;
+  display: grid;
+  /*background-color: aqua*/
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 350px 350px 350px 350px;
+}
+
+.grid-container-x div {
+  background-color: #000;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+  border: 1px solid black;
+}
+
+/*Aca empieza el primer container que es de las cards*/
+
+.cards-grid-N_M {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 700px;
+  gap: 30px;
+  padding: 20px;
+  margin-top: -1000px;
+  background-color: var(--background-color);
+}
+
+.grid-card-1 {
+  justify-content: center;
+
+  background-color: var(--primary-color-text);
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+
+<<<<<<< HEAD
+  border: solid 3px var(--primary-color-text);
+=======
+    border: solid 3px var(--primary-color-text);
+=======
+}/*Final header*/
+>>>>>>> grid
 
 /*Inicio parte 1*/
 /*Aca empieza el primer container que es de las cards*/
@@ -368,7 +753,11 @@ body {
     grid-auto-rows: 570px;
     gap: 30px;
     padding: 20px;
+<<<<<<< HEAD
     background-color: var(--background-color);
+=======
+    background-color: #07072d;
+>>>>>>> grid
 }
 
 /* estilos card 1 */
@@ -381,6 +770,7 @@ body {
     transition: transform 0.3s ease-in-out;
 
     border: solid 3px #fff;
+<<<<<<< HEAD
 
     font-size: 15px;
     text-align: center;
@@ -394,6 +784,44 @@ body {
 
 /* estilos card 2 */
 .grid-item-2 {
+=======
+>>>>>>> origin/footer
+>>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
+
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+<<<<<<< HEAD
+.grid-card-1:hover {
+<<<<<<< HEAD
+  filter: opacity(0.9);
+  transform: scale(1.04);
+=======
+=======
+.grid-item-1:hover {
+>>>>>>> origin/footer
+    filter: opacity(0.9);
+    transform: scale(1.04);
+>>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
+}
+
+<<<<<<< HEAD
+.grid-card-2 {
+  justify-content: center;
+
+  background-color: var(--primary-color-text);
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+
+<<<<<<< HEAD
+  border: solid 3px var(--primary-color-text);
+=======
+    border: solid 3px var(--primary-color-text);
+/* estilos card 2 */
+{
+>>>>>>> grid
     justify-content: center;
 
     background-color: #e5e5e5;
@@ -402,6 +830,7 @@ body {
 
     border: solid 3px #fff;
 
+<<<<<<< HEAD
     font-size: 15px;
     text-align: center;
     font-weight: bold;
@@ -414,6 +843,45 @@ body {
 
 /* estilos card 3 */
 .grid-item-3 {
+=======
+>>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
+
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+<<<<<<< HEAD
+.grid-card-2:hover {
+<<<<<<< HEAD
+  filter: opacity(0.9);
+  transform: scale(1.04);
+=======
+=======
+.grid-item-2:hover {
+>>>>>>> origin/footer
+    filter: opacity(0.9);
+    transform: scale(1.04);
+>>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
+}
+
+
+.grid-card-3 {
+  justify-content: center;
+
+  background-color: var(--primary-color-text);
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+
+<<<<<<< HEAD
+  border: solid 3px var(--primary-color-text);
+=======
+    border: solid 3px var(--primary-color-text);
+}
+
+/* estilos card 3 */
+ {
+>>>>>>> grid
     justify-content: center;
 
     background-color: #e5e5e5;
@@ -421,6 +889,7 @@ body {
     transition: transform 0.3s ease-in-out;
 
     border: solid 3px #fff;
+<<<<<<< HEAD
 
     font-size: 15px;
     text-align: center;
@@ -428,18 +897,55 @@ body {
 }
 
 .grid-item-3:hover {
+=======
+>>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
+
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.grid-card-3:hover {
+<<<<<<< HEAD
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+
+.grid-card-4 {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.grid-card-4:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+=======
+
+ 
+
+>>>>>>> grid
     filter: opacity(0.9);
     transform: scale(1.04);
 }
 
+<<<<<<< HEAD
 /* estilos card 4 */
 .grid-item-4 {
+=======
+.grid-card-4 {
+
+/* estilos card 4 */
+ {
+>>>>>>> grid
 
     font-size: 15px;
     text-align: center;
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 .grid-item-4:hover {
     filter: opacity(0.9);
     transform: scale(1.04);
@@ -447,11 +953,35 @@ body {
 
 /* estilo y tamaño de las imagenes */
 .Imagenes{
+=======
+.grid-card-4:hover {
+.grid-item-4:hover {
+
+    filter: opacity(0.9);
+    transform: scale(1.04);
+>>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
+}
+
+
+.Imagenes {
+<<<<<<< HEAD
+  height: 400px;
+  width: 250px;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+=======
+
+/* estilo y tamaño de las imagenes */
+             {
+origin/footer
+>>>>>>> grid
     height: 400px;
     width: 250px;
     border-radius: 5px;
     padding: 0;
     margin: 0;
+<<<<<<< HEAD
 }
 
 /* estilos y tamaños de los enlaces */
@@ -468,26 +998,232 @@ body {
 }
 
 .enlaces:hover{
+=======
+>>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
+}
+            
+
+
+/* estilos y tamaños de los enlaces */
+
+.enlaces {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: solid 1px gray;
+  border-radius: 5px;
+  background-color: #fcd581;
+  text-decoration: none;
+  color: #000;
+}
+
+
+.enlaces:hover {
+<<<<<<< HEAD
+  padding: 5px 10px;
+  border: solid 3px gray;
+  background-color: #fed766;
+  font-weight: bold;
+=======
+
+.enlaces:hover{
+
+>>>>>>> grid
     padding: 5px 10px;
     border: solid 3px gray;
     background-color: #fed766;
     font-weight: bold;
+<<<<<<< HEAD
 }
 
 /* estilos de los parrafos */
 #parrafo {
+=======
+>>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
+}
+
+
+/* estilos de los parrafos */
+
+#parrafo {
+<<<<<<< HEAD
+  margin-top: 200px;
+  text-align: center;
+  color: #e5e5e5;
+=======
+>>>>>>> grid
     margin-top: 200px;
     text-align: center;
     color: #e5e5e5;
 
+<<<<<<< HEAD
 }
 
 /* estilo de texto de la grid 4 */
 #vino {
+=======
+>>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
+}
+
+
+
+}
+
+/* estilo de texto de la grid 4 */
+
+#vino {
+<<<<<<< HEAD
+  margin-top: 150px;
+  color: #e5e5e5;
+  font-size: 30px;
+  text-align: end;
+  font-family: "Playfair Display", serif;
+=======
+>>>>>>> grid
     margin-top: 150px;
     color: #e5e5e5;
     font-size: 30px;
     text-align: end;
+<<<<<<< HEAD
+=======
+
+    font-family: "Playfair Display", serif;
+>>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
+}
+
+#premium {
+  color: #fed766; /*variable*/
+  font-size: 35px;
+  text-align: end;
+  font-family: "Playfair Display", serif;
+}
+
+
+/*Hasta aca llega la seccion de cards*/
+
+.grid-article {
+  background-color: #050e0eb6;
+  grid-column: 2 / 6;
+  grid-row: auto;
+  opacity: 1;
+
+  /* GRID ARTICLE */
+  display: grid;
+  grid-template-columns: 48% 45%;
+  grid-gap: 3rem;
+}
+
+.grid-seccion_text {
+  padding: 2em;
+  color: #99999b;
+  text-align: center;
+}
+
+.grid-seccion_text button {
+  background: burlywood; /*variable*/
+  color: var(--primary-color-text);
+  padding: 1em;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.grid-seccion_text button:hover {
+  background: #caa575;
+  cursor: pointer;
+  color: #000;
+  border: solid 3px #000;
+}
+
+.grid-seccion_img {
+  padding: 20px;
+}
+
+.grid-seccion_img img {
+  grid-row: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* SECCION #3 */
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 300px;
+  grid-gap: 10rem;
+  padding: 1rem;
+  background-color: var(--background-color);
+  /*background: url(images/Logo.png)  repeat;*/
+  /* background: rgba(0, 0, 0, 0.548) no-repeat; */
+  background-size: 84.5px 83px;
+}
+
+.agenda {
+  font-size: 25px;
+  padding: 20px;
+  background-color: #b29e6a; /*variable*/
+  transition: background 1.5s;
+  position: absolute;
+  top: 300px;
+  left: 90px;
+  width: 200px;
+}
+
+.agenda:hover {
+  padding: 5px;
+  background: #010528; /*variable*/
+}
+<<<<<<< HEAD
+/*Parte numero 5 de la pagina Katherin y Sebastian*/
+.leibol {
+  background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
+  margin-top: 100em;
+  color: goldenrod;
+  margin-left: 40%;
+}
+.leibol_3 {
+  background-color: #010528;
+  color: black;
+  background-color: gray;
+  height: 20px;
+  border: gold; /*variable*/
+  font-size: 16px;
+}
+.leibol_3:hover {
+  color: black;
+  cursor: pointer;
+}
+.leibol_2 {
+  background-color: #010528;
+  border: gold;
+}
+.text {
+  color: gold;
+  font-family: cursive;
+  font-size: 20px;
+  opacity: 30%;
+  margin-right: 10%;
+}
+.text:hover {
+  color: goldenrod;
+  cursor: pointer;
+}
+.text_1 {
+  opacity: 30%;
+  font-size: 18px;
+  font-family: cursive;
+}
+.text_1:hover {
+  color: goldenrod;
+  cursor: pointer;
+}
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> grid
     font-family: 'Playfair Display', serif;
 }
 
@@ -500,6 +1236,7 @@ body {
 /* estilo de texto de la grid 4 */
 /*Hasta aca llega la seccion de cards*/
 
+<<<<<<< HEAD
 /* Estilos FOOTER - LAURA*/
 footer {
     display: flex;
@@ -512,3 +1249,176 @@ footer {
 }
 /*media queri seccion 3 sara-jeremy
 >>>>>>> origin/sectionInformation
+=======
+
+/*Parte numero 5 de la pagina Katherin y Sebastian*/
+.leibol{
+    background-image: url(../images/mae-mu-rgEHTLwal_8-unsplash.jpg);
+     margin-top: 100em;
+     color: goldenrod;
+     margin-left: 1%;
+ }
+ .leibol_3{
+     background-color: #010528;
+     color: black;
+     background-color: gray;
+     height: 20px;
+     border: gold;
+     font-size: 16px;
+    
+ }
+ .leibol_3:hover{
+ color: black;
+ cursor: pointer;
+ }
+ .leibol_2{
+     background-color: #010528;
+     border: gold;
+ }
+ .text{
+     color:gold;
+     font-family: cursive;
+     font-size: 20px;
+     opacity:30%;
+     margin-right: 10%;
+ }
+ .text:hover{
+    color: goldenrod;
+    cursor:pointer;
+
+ }
+ .text_1{
+     opacity: 30%;
+     font-size: 18px;
+     font-family: cursive;
+ }
+ .text_1:hover{
+     color: goldenrod;
+     cursor: pointer;
+ }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/footer
+=======
+>>>>>>> 7119cad74f31b80dbf2b3f768feef08d85985e58
+>>>>>>> origin/footer
+=======
+>>>>>>> a1bafa064c28f0ebf64163d507b8590ab7bc5824
+>>>>>>> b40283e45d022d767bab8aebc58a26c75848c561
+
+/* Estilos FOOTER - LAURA*/
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #060b38f6;
+  width: auto;
+  height: 5em;
+  justify-content: center;
+  align-items: center;
+}
+/*
+
+/*STYLES GRID-DANIEL*/
+.gallery__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 400px;
+  background-color: #f2f2f2; /*variable*/
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(58, 57, 57); /*variable*/
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.gallery__item {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.gallery__item::before {
+  content: "GREAT WALL";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.329);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: aliceblue; /*variable*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.gallery__item:hover::before {
+  transform: translate(0);
+}
+<<<<<<< HEAD
+/*FIN STYLES GRID-DANIEL*/
+
+/*INICIO-GRID-MEDIA-DANIEL*/
+@media (min-width: 720px) and (max-width: 1024px){
+    .gallery__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 350px;
+        background-color: #f2f2f2;
+    }
+    
+
+    .gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1025px){
+    .gallery__container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 400px;
+        background-color: #f2f2f2;
+    }
+
+    .gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+     
+}
+/*FIN-GRID-MEDIA-DANIEL*/
+
+
+=======
+<<<<<<< HEAD
+
+/*FIN STYLES GRID-DANIEL*/
+
+
+=======
+/*FIN STYLES GRID-DANIEL*/
+>>>>>>> 6d9630e56413b8b578ac12c28e2b1eca4cc65fae
+>>>>>>> developer
+>>>>>>> grid
