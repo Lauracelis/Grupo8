@@ -5,46 +5,172 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="./CSS/home.css">
-=======
     <link rel="stylesheet" href="style.css">
-<<<<<<< HEAD
-<<<<<<< HEAD
+    <link rel="stylesheet" href="./CSS/home.css">
     <title>Pagina de vinos</title>
-    
-=======
->>>>>>> 3c9824da86b2ef59ba5a4c9d52898c27f322d41f
-    <title>GREAT WALL</title>
-
 </head>
 
-<header>
-    <nav>
+<body>
+    <!--Navbar de la pagina-->
+    <header class="header">
+        <a href="./index.html"><img class="logo" src="/images/Logo.png" alt="logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
         <ul class="menu">
-            <li><a href="">INICIO</a></li>
-            <li><a href="">QUIÉNES SOMOS </a></li>
-            <li><a href="">CARTA DE VINOS</a></li>
-            <li><a href="">VINOS PREMIUM</a></li>
-            <li><a href="">CONTÁCTANOS</a></li>
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">¿QUIÉNES SOMOS?</a></li>
+            <li><a href="#">CARTA DE VINOS</a></li>
+            <li><a href="#">VINOS PREMIUM</a></li>
+            <li><a href="#">CONTÁCTANOS</a>
+            </li>
+            <div class="buttons">
+                <a href="#"><button class="btn-login">INGRESAR</button></a>
+                <a href="#"><button class="btn-create_account">CREAR CUENTA</button></a>
+                <li class="toggle"><span class="bars"></span></li>
+            </div>
         </ul>
-    </nav>
-</header>
+    </header><!-- Fin Navbar de la pagina--
+    >
+    <!--seccion tres del home -->
+    <div class="grid-container-x">
+        <div class="grid-item1">1</div>
+        <div class="grid-item2">2</div>
+        <div class="grid-item3">3</div>
+        <button class="agenda">Agendarme</button>
+    </div>
+    <button class="agenda">Agendarme</button>
 
-<article class="grid-container">
-    <!-- <div class="grid-img">
+
+    <article class="grid-container">
+        <!-- <div class="grid-img">
         <img src="images/Logo.png" alt="">
     </div> -->
-    <div class="grid-article">
-        <div class="grid-seccion_text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias commodi accusamus dolorum voluptates aliquid consectetur unde illum aliquam aperiam, quisquam aut nulla, dignissimos esse obcaecati! Labore cumque saepe repudiandae at.</p>
-            <button>
-                Agendarme
-            </button>
+        <div class="grid-article">
+            <div class="grid-seccion_text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias commodi accusamus dolorum
+                    voluptates aliquid consectetur unde illum aliquam aperiam, quisquam aut nulla, dignissimos esse
+                    obcaecati! Labore cumque saepe repudiandae at.</p>
+                <button>
+                    Agendarme
+                </button>
+            </div>
+            <div class="grid-seccion_img">
+                <img src="images/scott-warman-rrYF1RfotSM-unsplash.jpg" alt="" width="100px" height="100px">
+            </div>
         </div>
-        <div class="grid-seccion_img">
-            <img src="images/scott-warman-rrYF1RfotSM-unsplash.jpg" alt="" width="100px" height="100px">
+    </article>
+
+    <main class="grid-container-1">
+
+        <main class="grid-container">
+
+            <div class="grid-item-1">
+                <img class="Imagenes" src="images/Vino-main-1.jpg" alt="vino 1">
+                <hr>
+                <h3>"Nombre del vino:"</h3><br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum mollitia culpa,cum voluptatibus laboriosam natus
+                </p><br>
+                <a class="enlaces" href="home.html">comprar</a>
+            </div>
+
+            <div class="grid-item-2">
+                <img class="Imagenes" src="images/Vino-main-2.jpg" alt="vino 1">
+                <hr>
+                <h3>"Nombre del vino:"</h3><br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum mollitia culpa,cum voluptatibus laboriosam natus
+                </p><br>
+                <a class="enlaces" href="home.html">comprar</a>
+            </div>
+
+            <div class="grid-item-3">
+                <img class="Imagenes" src="images/Vino-main-3.jpg" alt="vino 1">
+                <hr>
+                <h3>"Nombre del vino:"</h3><br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum mollitia culpa,cum voluptatibus laboriosam natus
+                </p><br>
+                <a class="enlaces" href="home.html">comprar</a>
+            </div>
+
+            <div class="grid-item-4">
+                <p id="parrafo">
+                    A solo un click podrás <br>
+                    degustar los vinos mas <br>
+                    exclusivos de nuestro club <br>
+                    y compartirlos en buena <br>
+                    compañia.
+                </p>
+                <h2 id="vino">VINOS</h2>
+                <h2 id="premium">PREMIUM</h2>
+                <hr>
+            </div>
+        </main><br>
+
+        <article class="grid-container-2">
+            <!-- <div class="grid-img">
+        <img src="images/Logo.png" alt="">
+    </div> -->
+            <div class="grid-article">
+                <div class="grid-seccion_text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Molestias commodi accusamus dolorum voluptates aliquid
+                        consectetur unde illum aliquam aperiam, quisquam aut nulla,
+                        dignissimos esse obcaecati! Labore cumque saepe repudiandae
+                        at.</p>
+
+                    <button>
+                        Agendarme
+                    </button>
+                </div>
+                <div class="grid-seccion_img">
+                    <img src="images/scott-warman-rrYF1RfotSM-unsplash.jpg" alt="" width="100px" height="100px">
+                </div>
+            </div>
+        </article>
+
+
+        <div class="grid-container-3">
+            <div>1</div>
+            <img src="imagenes/vinodos.jpg.jpg" width="175" height="175" />
+            <div>3</div>
+            <div>4</div>
+            <div>1</div>
+            <div>2 VALDONEJE <br>
+                Descripción
+                <ul>
+
+                    <li type="circle">Vino tinto joven</li>
+
+                    <li type="circle"> Bodega: Valtuille</li>
+
+                    <li type="circle">Cosecha 2018</li>
+
+                    <li type="circle">Precio 25€</li>
+
+                    <li type="circle"> 100% mencía</li>
+
+                    <li type="circle">Aroma: fruta roja</li>
+
+                    <li type="circle">Sabor: acidez mediana</li>
+
+                    <li type="circle"> Combina perfecto con: <br>
+                        quesos azules y postres a base de jonjoli</li>
+
+                </ul>
+                <<<<<<< HEAD </div>
+                    <div>3</div>
+                    <div>4</div>
+            </div>
+            =======
+            <div>3</div>
+            <div>4</div>
         </div>
+<<<<<<< HEAD
     </div>
 </article>
 
@@ -138,7 +264,27 @@
 </html>
 
     
+=======
+        </div>
+>>>>>>> origin/quienesSomos
 
 
-   
 
+        <div>
+            <h3>Contactanos</h3>
+            <img src="icons8-logo-de-google-30.png">
+            <img src="icons8-facebook-nuevo-30.png">
+            <img src="icons8-instagram-30.png">
+            <img src="icons8-twitter-30.png">
+            <h4>Bogota,colombia</h4>
+            <h4>calle 100#78-90</h4>
+        </div>
+
+        <!-- Footer imagen GREATWALL-->
+        <footer>
+            <!--<div class="image_footer">-->
+            <img class="great-wall" src="./images/Recurso 5.png" alt="logo-GREATWALL">
+        </footer>
+        </div>
+
+</html>

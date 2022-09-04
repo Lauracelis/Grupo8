@@ -23,6 +23,7 @@ body {
     font-size: 3em;
 }
 
+
 /* santiago y ivonne */
 /* body{
     background-color: blue; */
@@ -70,7 +71,7 @@ body {
 }
 
 
-@media screen and (max-width: 600px){
+/* @media screen and (max-width: 600px){
     .beneficios_articulo{
         display: grid;
         grid-template-columns: auto auto;
@@ -87,7 +88,7 @@ body {
         text-align: right;
     }
     /* .beneficios_contenedor-img{} */
-     #img-copas{
+     /* #img-copas{
         height: 520px;
         width: 375px;
         border-radius: 5px;
@@ -107,5 +108,225 @@ body {
         text-align: center;
         padding: 10px;
     
+    } */ */
+
+/*Quienes somos-Jeisson Parra*/
+.container-q{
+    background-color: var(--background-color);
+}
+
+.title-q{
+    padding: 30px 0 30px;
+    font-family: var(--primary-font);
+    text-align: center;
+    color: var(--primary-color-text);
+    font-size: 50px;
+}
+
+.content-q{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.lorem-q{
+    width: 600px;
+    height: 300px;
+    background-color: #191c3b;
+    text-align:center;
+    font-family: var(--secondary-font);
+    font-size: 22px;
+    color: var(--primary-color-text);
+    margin-top: 40px;
+    padding: 60px 4px 60px 4px;
+    
+}
+
+.q_img{
+    width: 560px;
+    height: 340px;
+}
+
+.text-qq{
+    font-family: var(--secondary-font);
+    font-size: 44px;
+    text-align: center;
+    color: var(--primary-color-text);
+    padding: 80px 0px;
+}
+/*Quienes somos*/
+
+/* /responsive pantallas grandes/ */
+@media (min-width: 1025px) {
+/*Quienes somos-Jeisson Parra*/
+.container-q{
+    background-color: var(--background-color);
+}
+
+.title-q{
+    padding: 30px 0 30px;
+    font-family: var(--primary-font);
+    text-align: center;
+    color: var(--primary-color-text);
+    font-size: 50px;
+}
+
+.content-q{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.lorem-q{
+    width: 600px;
+    height: 300px;
+    background-color: #191c3b;
+    text-align:center;
+    font-family: var(--secondary-font);
+    font-size: 22px;
+    color: var(--primary-color-text);
+    margin-top: 40px;
+    padding: 60px 4px 60px 4px;
+    
+}
+
+.q_img{
+    width: 560px;
+    height: 340px;
+}
+
+.text-qq{
+    font-family: var(--secondary-font);
+    font-size: 44px;
+    text-align: center;
+    color: var(--primary-color-text);
+    padding: 80px 0px;
+}
+.beneficios_articulo{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.beneficios_txt{
+    grid-column: 1/4;
+    text-align: center;
+    padding: 1cm;
+    font-family: var(--primary-font);
+    background: #ccc;
+    background:linear-gradient( 180deg, gold, rgb(20, 20, 172));
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+}
+.beneficios_contenedor-img{
+    text-align: right;
+}
+/* .beneficios_contenedor-img{} */
+ #img-copas{
+    height: 520px;
+    width: 375px;
+    border-radius: 5px;
+    position: relative;
+    padding-top: 2cm;
+
+}
+.beneficios_lista{
+    background-color: white;
+    border-radius: 5px;
+    width: 750px;
+}
+.li-beneficios{
+    padding: 10px;
+}
+.beneficios_boton{
+    text-align: center;
+    padding: 10px;
+
+}
+/*Quienes somos*/
+}
+
+/*responsive pantalla tablet */
+@media (min-width: 768px) and (max-width: 1024px){
+/*Quienes somos-Jeisson Parra*/
+    .container-q{
+        display: flex;
+        flex-direction:column;
     }
+
+    .title-q{
+        padding: 30px 0 30px;
+        font-family: var(--primary-font);
+        text-align: center;
+        color: var(--primary-color-text);
+        font-size: 30px;
+    }
+
+    .lorem-q{
+        width: 300px;
+        height: 280px;
+        max-width: 350px;
+        display: block;
+        font-size: 10px;
+        padding: 30px 4px 30px 4px;
+    }
+
+    .q_img{
+        width: 300px;
+        height: 320px;
+        max-width: 350px;
+        display: block;
+    }
+
+    .text-qq{
+        font-family: var(--secondary-font);
+        font-size: 22px;
+        text-align: center;
+        color: var(--primary-color-text);
+        padding: 40px 0px;
+    }
+/*Quienes somos*/
+}
+
+/*responsive pantalla de celular*/
+@media (min-width: 360px) and (max-width: 640px) {
+/*Quienes somos-Jeisson Parra*/
+.container-q{
+    display: flex;
+    flex-direction:column;
+}
+
+.title-q{
+    padding: 30px 0 30px;
+    font-family: var(--primary-font);
+    text-align: center;
+    color: var(--primary-color-text);
+    font-size: 30px;
+}
+
+.lorem-q{
+    width: 300px;
+    height: 280px;
+    max-width: 350px;
+    display: block;
+    font-size: 10px;
+    padding: 30px 4px 30px 4px;
+}
+
+.q_img{
+    width: 300px;
+    height: 320px;
+    max-width: 350px;
+    display: block;
+}
+
+.text-qq{
+    font-family: var(--secondary-font);
+    font-size: 22px;
+    text-align: center;
+    color: var(--primary-color-text);
+    padding: 40px 0px;
+}
+/*Quienes somos*/
 }
