@@ -4,6 +4,7 @@
 
 /* NO CAMBIAR NI BORRAR*/
 :root {
+<<<<<<< HEAD
   --background-color: #010528;
   --gold-color: #B29E6A;
   --primary-color-text: #F2F2F2;
@@ -34,6 +35,24 @@
 body {
   background-color: var(--background-color);
   font-family: var(--secondary-font);
+=======
+    --background-color: #010528;
+    --gold-color: #B29E6A;
+    --primary-color-text: #F2F2F2;
+    --second-color-text: #101010;
+    --primary-font: 'Playfair Display', serif;
+    --secondary-font: 'Source Sans Pro', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+>>>>>>> 4a365c4747e40ca98e3597b28ad3fcf5053b7c0c
 }
 <<<<<<< HEAD
 /*MOBILE MENU*/
@@ -351,6 +370,7 @@ footer{
 >>>>>>> grid
 /* SECCION #3  SECTION INFORMATION "JEREMY/SARA" */
 
+<<<<<<< HEAD
 .sectionInformation_grid-container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -447,6 +467,8 @@ footer{
 .header .menu-icon .nav-icon:after {
     top: -5px;
 }
+=======
+>>>>>>> 4a365c4747e40ca98e3597b28ad3fcf5053b7c0c
 
 /* menu btn */
 .buttons {
@@ -646,7 +668,11 @@ footer{
 
 .grid-container-x {
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: 1000px;
+    width: 100%;
+    font-family: var(--secondary-font);
+    Background-repeat: no-repeat;
+    object-fit: contain;
     background-image: url(/images/img_3.jpg);
     
 }
@@ -660,21 +686,6 @@ footer{
     padding: 120px 100px;
     color: white;
 }
-
-/* .grid-container-x div {
-    height: auto;
-    background-position: center;
-    color: white;
-}
-
-.grid-container-x p {
-    font-size: 40px;
-    font-weight: bold;
-    margin-top: 150px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    padding-left: 100px;
-} */
 
 .btn-unirme{
     font-weight: bold;
@@ -751,6 +762,8 @@ footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-auto-rows: 570px;
+    margin-top: -300px;
+    font-family:var(--secondary-font);
     gap: 30px;
     padding: 20px;
 <<<<<<< HEAD
@@ -1233,10 +1246,13 @@ origin/footer
     text-align: end;
     font-family: 'Playfair Display', serif;
 }
-/* estilo de texto de la grid 4 */
 /*Hasta aca llega la seccion de cards*/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4a365c4747e40ca98e3597b28ad3fcf5053b7c0c
 /* Estilos FOOTER - LAURA*/
 footer {
     display: flex;
@@ -1247,6 +1263,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
+<<<<<<< HEAD
 /*media queri seccion 3 sara-jeremy
 >>>>>>> origin/sectionInformation
 =======
@@ -1422,3 +1439,6 @@ footer {
 >>>>>>> 6d9630e56413b8b578ac12c28e2b1eca4cc65fae
 >>>>>>> developer
 >>>>>>> grid
+=======
+/*media queri seccion 3 sara-jeremy*/
+>>>>>>> 4a365c4747e40ca98e3597b28ad3fcf5053b7c0c
