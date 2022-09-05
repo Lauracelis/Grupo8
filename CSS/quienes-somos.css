@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-/*Variables estilos*/
+/* Variables estilos */
 :root{
     --background-color: #010528;
     --gold-color: #B29E6A;
@@ -16,61 +16,100 @@
     font-size: 25px;
 }
 
-/* NO CAMBIAR NI BORRAR*/
+/* NO CAMBIAR NI BORRAR */
 body {
     background-color: var(--background-color);
     font-family: var(--secondary-font);
     font-size: 3em;
 }
 
-/*Quienes somos-Jeisson Parra*/
-.container-q{
-    background-color: var(--background-color);
-}
-
-.title-q{
-    padding: 30px 0 30px;
-    font-family: var(--primary-font);
-    text-align: center;
-    color: var(--primary-color-text);
-    font-size: 50px;
-}
-
-.content-q{
-    margin: 0px;
-    display: flex;
-    justify-content: center;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.lorem-q{
-    width: 600px;
-    height: 300px;
-    background-color: #191c3b;
-    text-align:center;
-    font-family: var(--secondary-font);
-    font-size: 22px;
-    color: var(--primary-color-text);
-    margin-top: 40px;
-    padding: 60px 4px 60px 4px;
+/* responsive pantalla de celular */
+@media (min-width: 360px) and (max-width: 640px) {
+    /*Quienes somos-Jeisson Parra*/
+    .container-q{
+        display: flex;
+        flex-direction:column;
+        padding: 5px;
+    }
     
-}
+    .title-q{
+        padding: 10px 0 10px;
+        font-family: var(--primary-font);
+        text-align: center;
+        color: var(--primary-color-text);
+        font-size: 12px;
+    }
+    
+    .lorem-q{
+        width: 150px;
+        height: 150px;
+        max-width: 170px;
+       
+        font-size: 10px;
+        padding: 30px 4px 30px 4px;
+        color: var(--primary-color-text);
+    }
+    
+    .q_img{
+        width: 150px;
+        height: 150px;
+        max-width: 170px;
+        
+    }
+    
+    .text-qq{
+        font-family: var(--secondary-font);
+        font-size: 10px;
+        text-align: center;
+        color: var(--primary-color-text);
+        padding: 10px 0px;
+    }
+    /*Quienes somos*/
+    }
 
-.q_img{
-    width: 560px;
-    height: 340px;
-}
+/* responsive pantalla tablet */
+@media (min-width: 768px) and (max-width: 1024px){
+/*Quienes somos-Jeisson Parra*/
+    .container-q{
+        display: flex;
+        flex-direction:column;
+    }
 
-.text-qq{
-    font-family: var(--secondary-font);
-    font-size: 44px;
-    text-align: center;
-    color: var(--primary-color-text);
-    padding: 80px 0px;
-}
+    .title-q{
+        padding: 30px 0 30px;
+        font-family: var(--primary-font);
+        text-align: center;
+        color: var(--primary-color-text);
+        font-size: 30px;
+    }
+
+    .lorem-q{
+        width: 300px;
+        height: 280px;
+        max-width: 350px;
+        display: block;
+        font-size: 10px;
+        padding: 30px 4px 30px 4px;
+    }
+
+    .q_img{
+        width: 300px;
+        height: 320px;
+        max-width: 350px;
+        display: block;
+    }
+
+    .text-qq{
+        font-family: var(--secondary-font);
+        font-size: 22px;
+        text-align: center;
+        color: var(--primary-color-text);
+        padding: 40px 0px;
+    }
 /*Quienes somos*/
+}
 
-/* /responsive pantallas grandes/ */
+/* responsive pantallas grandes */
 @media (min-width: 1025px) {
 /*Quienes somos-Jeisson Parra*/
 .container-q{
@@ -116,90 +155,6 @@ body {
     text-align: center;
     color: var(--primary-color-text);
     padding: 80px 0px;
-}
-/*Quienes somos*/
-}
-
-/*responsive pantalla tablet */
-@media (min-width: 720px) and (max-width: 1024px){
-/*Quienes somos-Jeisson Parra*/
-    .container-q{
-        display: flex;
-        flex-direction:column;
-    }
-
-    .title-q{
-        padding: 30px 0 30px;
-        font-family: var(--primary-font);
-        text-align: center;
-        color: var(--primary-color-text);
-        font-size: 30px;
-    }
-
-    .lorem-q{
-        width: 300px;
-        height: 280px;
-        max-width: 350px;
-        display: block;
-        font-size: 10px;
-        padding: 30px 4px 30px 4px;
-    }
-
-    .q_img{
-        width: 300px;
-        height: 320px;
-        max-width: 350px;
-        display: block;
-    }
-
-    .text-qq{
-        font-family: var(--secondary-font);
-        font-size: 22px;
-        text-align: center;
-        color: var(--primary-color-text);
-        padding: 40px 0px;
-    }
-/*Quienes somos*/
-}
-
-/*responsive pantalla de celular*/
-@media (min-width: 400px) {
-/*Quienes somos-Jeisson Parra*/
-.container-q{
-    display: flex;
-    flex-direction:column;
-}
-
-.title-q{
-    padding: 30px 0 30px;
-    font-family: var(--primary-font);
-    text-align: center;
-    color: var(--primary-color-text);
-    font-size: 30px;
-}
-
-.lorem-q{
-    width: 300px;
-    height: 280px;
-    max-width: 350px;
-    display: block;
-    font-size: 10px;
-    padding: 30px 4px 30px 4px;
-}
-
-.q_img{
-    width: 300px;
-    height: 320px;
-    max-width: 350px;
-    display: block;
-}
-
-.text-qq{
-    font-family: var(--secondary-font);
-    font-size: 22px;
-    text-align: center;
-    color: var(--primary-color-text);
-    padding: 40px 0px;
 }
 /*Quienes somos*/
 }
