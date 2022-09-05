@@ -43,9 +43,6 @@ color: var(--dark);
 font-size: 16px;
 padding-block: 50px;
 }
-
-
-
 input,
 [type="submit"] {
 all: unset;
@@ -159,12 +156,6 @@ font-weight: 600;
   .form-body > div {
     width: 50%;
   }
-
-
-
-
-
-
 /*checkbox styles*/
 [type="checkbox"]:not(:checked),
 [type="checkbox"]:checked {

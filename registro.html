@@ -4,78 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="http://acme.com/css/prueba.css"rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="registro.css">
-    <title>INSCRIBETE</title>
-</head>
-<body>
+    <link rel="stylesheet" href="css/registro.css">
+    <title> registro</title>
+
+    <header class="container form-header">
+               
+        <h1 class="form-title">Inscríbete a nuestro club</h1>
+           
+    </header>
     
-
-
-<div class="container-fluid px-1 py-5 mx-auto">
-    <div class="row d-flex justify-content-center">
-        <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
-            <h3>Inscribete a nuestro club</h3>
-            <div class="card">
-                <form class="form-card" onsubmit="event.preventDefault()">
-                    <div class="row justify-content-between text-left">
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">First name<span class="text-danger"> *</span></label> <input type="text" id="fname" name="fname" placeholder="nombres" onblur="validate(1)"> </div>
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">Last name<span class="text-danger"> *</span></label> <input type="text" id="lname" name="lname" placeholder="apellidos" onblur="validate(2)"> </div>
-                    </div>
-
-                    <div class="row justify-content-between text-left">
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">email<span class="text-danger"> *</span></label> <input type="text" id="email" name="email" placeholder="" onblur="validate(3)"> </div>
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="form-control-label px-3">confirmar email<span class="text-danger"> *</span></label> <input type="text" id="mob" name="mob" placeholder="" onblur="validate(4)"> </div>
-                    </div>
-
-                    <div>
+    <main class="container">
+        <form action="" method="post" class="form-body">
+            <div>
+                <div>
+                    <label class="form-label" for="name">Nombres</label>
+                    <input class="input-text" type="text" name="name" id="name"/>
+                </div>
+    
+                <div>
+                    <label class="form-label" for="last-name">Fecha nacimiento</label>
+                          <input type="date" name="fecha" min="año-03-25" max="2018-05-25" step="2" /> 
+                </div> <br> <br>
+                <div>
+                    <label for="validarTelefono">Tipo documento:</label>
                     
-                          <form name="formulario_fecha" method="post" action="/send.php">
-                          <!-- Campo de entrada de fecha -->
-                           fecha nacimiento
-                          <input type="date" name="fecha" min="2018-03-25" max="2018-05-25" step="2" /> 
-                 
-                        <form name="formulario_fecha" method="post" action="/send.php">
-                        <div class="confirmar_email">
-                        <div class="col-md-4 mb-3">
-                        <label for="validarTelefono">tipo documento:</label>
+
                         <select class="documento_seleccionar" aria-label="Ejemplo de .form-select-lg">
                         <option value="cedula ciudadania">cedula ciudadania</option>
                         <option value="2">cedula extranjeria</option>
                         <option value="3">pasaporte</option>
-                      </select>
-                    </div>
-                    <div class="formulario_nombre">
-                        <div class="col-md-4 mb-3">
-                            <label for="validarNombre">Número documento:<span class="red">*</span></label>
-                            <input type="text" class="form-control" id="validarNombre" name="validarNombre" required>
-                        </div>
+                        <label class="form-label" for="mail">numero documento</label>
+                        <input class="input-text" type="email" name="mail" id="mail" placeholder="número documento" />
+     
 
-                        
+
+                    <label class="form-label" for="mail">Correo electrónico *</label>
+                    <input class="input-text" type="email" name="mail" id="mail"/>
+                </div>
+            </div>
+    
+            <div>
+                <div>
+                    <label class="form-label" for="password">Apellidos 
+                        <span class="subtitle"> </span></label>
+                    <input class="input-text" type="password" name="password" id="password"/>
+                </div>
+                <div> <br> <br> <br> <br>
+                    <label class="form-label" for="password-confirmation">Celular</label>
+                    <input class="input-text" type="password" name="password" id="password"/>
+                </div> <br> <br> <br> 
+    
                 
-                
-
-
-
-                    <center>.  
-                        <div class="terminos_condiciones">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                              acepto terminos y condiciones
-                            </label>
-                        </div>
-                    </center>.
-                    
-                    
-                    
-                    <div class="text-aling:center">
-                        <div class="boton"> <button type="submit" class="btn-block btn-primary">enviar</button> </div>
-                    </div>
-                </form>
-            </div>git 
-        </div>
-    </div>
-</div>
-
-</html>
+    
+    
+                    <div class="form-check">
+                        <input type="checkbox" name="conditions" id="conditions" />
+                        <label for="conditions" class="highlighted">
+                            Acepto <a href="">Términos y condiciones </a>
+                        </label>
+                    </div> <br> <br>
+    
+                    <button type="submit" class="form-submit" value="create-account">
+                        enviar
+                    </button>
+                </div>
+            </div>
+        </form>
+    </main>  
