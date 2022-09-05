@@ -1,3 +1,4 @@
+/*no borrar ni modificar*/
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
@@ -16,5 +17,213 @@
   padding: 0;
   margin: 0;
 }
+
+/*css formulario registro*/
+:root {
+  --background-color: #010528;
+--dark: #5a5a5a;
+--beige: #ded2bf;
+--gold: #bf995c;
+--brown: #8b6932;
+--white: #ffffff;
+}
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*cambiando color body*/
+body {
+  background-color: #010528;
+font-family: "playfair Display", sans-serif;
+color: var(--dark);
+font-size: 16px;
+padding-block: 50px;
+}
+
+
+
+input,
+[type="submit"] {
+all: unset;
+width: 100%;
+}
+
+[type="submit"] {
+cursor: pointer;
+}
+
+/*Layout */
+.container {
+width: min(1030px, 90%);
+margin-inline: auto;
+}
+
+.form-header {
+text-align: center;
+margin-bottom: 25px;
+}
+
+
+.form-title {
+  color:#8b6932;
+font-size: 22px;
+margin: 0 auto 16px;
+}
+
+.form-subtitle {
+font-size: 18px;
+margin-block: 0;
+}
+
+
+.form-body {
+background-color: var(--beige);
+padding: 20px 15px;
+border-radius: 8px;
+}
+
+.form-label {
+margin-bottom: 12px;
+display: block;
+font-weight: bold;
+}
+
+.input-text {
+background-color: var(--white);
+box-sizing: border-box;
+padding: 15px 12px;
+font-family: "Montserrat", sans-serif;
+border-radius: 8px;
+margin-bottom: 30px;
+border: 2px solid transparent;
+}
+
+
+.form-check {
+font-size: 14px;
+}
+
+.form-submit {
+background-color: var(--gold);
+color: var(--white);
+text-align: center;
+font-weight: 600;
+padding-block: 10px;
+border-radius: 8px;
+}
+
+/*check condiciones*/
+.highlighted {
+font-weight: 600;
+}
+
+/* Mediaqueries*/
+
+@media screen and (min-width: 481px) {
+.form-body {
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+  padding: 28px 30px;
+}
+
+.form-body > div {
+  width: 50%;
+}
+
+/* Responsive pantalla tablet */	
+@media screen and (min-width: 720px){
+  .form-body {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    padding: 28px 30px;
+  }
+
+  .form-body > div {
+    width: 50%;
+  }
+  
+    @media screen and (min-width: 767px){
+  .form-body {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    padding: 28px 30px;
+  }
+
+  .form-body > div {
+    width: 50%;
+  }
+
+
+
+
+
+
+/*checkbox styles*/
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+position: absolute;
+left: 0;
+opacity: 0.01;
+}
+
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+position: relative;
+padding-left: 28px;
+cursor: pointer;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+width: 18px;
+height: 18px;
+background: var(--white);
+border-radius: 50%;
+-webkit-transition: all 0.275s;
+transition: all 0.275s;
+}
+
+[type="checkbox"]:checked + label:before {
+background: var(--brown);
+}
+
+/* check*/
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+content: "";
+position: absolute;
+top: 3px;
+left: 3px;
+width: 12px;
+height: 12px;
+border-radius: 50%;
+-webkit-transition: all 0.2s;
+transition: all 0.2s;
+background: var(--gold);
+}
+
+/* checks */
+[type="checkbox"]:not(:checked) + label:after {
+opacity: 0;
+}
+
+[type="checkbox"]:checked + label:after {
+opacity: 1;
+}
+
+
+
 
 
